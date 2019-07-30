@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Jogo3</name>
+    <events>
+        <include>Variaveis</include>
+        <variable constant="0" name="Tempo3" sid="252679091379144" static="0" type="number">0</variable>
+        <variable constant="0" name="Fim3" sid="279307030880275" static="0" type="number">0</variable>
+        <variable constant="0" name="Pontos3" sid="375396980964273" static="0" type="number">0</variable>
+        <variable constant="0" name="Tentativas3" sid="271856599312377" static="0" type="number">0</variable>
+        <event-block sid="108297404845204">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="307969153065926" type="J3CirculoVerde">
+                    <param id="0" name="Object">J3CirculoCinza</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="776070426526134" type="J3CirculoCinza">
+                    <param id="0" name="Animation">&quot;Acerto&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="5" name="Set frame" sid="929909870589427" type="J3CirculoCinza">
+                    <param id="0" name="Frame number">J3CirculoCinza.AnimationFrame</param>
+                </action>
+                <action id="0" name="Spawn another object" sid="372038457226613" type="J3CirculoCinza">
+                    <param id="0" name="Object">J3Particula</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="-10" name="Add to" sid="295616607460044" type="System">
+                    <param id="0" name="Variable">Pontos</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-9" name="Destroy" sid="306030837855056" type="J3CirculoVerde" />
+                <action id="0" name="Play" sid="993094384228040" type="Audio">
+                    <param id="0" name="Audio file">okay</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="982795368957707">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="716198698885249" type="J3QuadroVerde">
+                    <param id="0" name="Object">J3quadradoCinza</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="833199963755654" type="J3quadradoCinza">
+                    <param id="0" name="Animation">&quot;Acerto&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="5" name="Set frame" sid="908868193437257" type="J3quadradoCinza">
+                    <param id="0" name="Frame number">J3quadradoCinza.AnimationFrame</param>
+                </action>
+                <action id="0" name="Spawn another object" sid="803854333598770" type="J3quadradoCinza">
+                    <param id="0" name="Object">J3Particula</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="-10" name="Add to" sid="799249487437261" type="System">
+                    <param id="0" name="Variable">Pontos</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-9" name="Destroy" sid="688427227477514" type="J3QuadroVerde" />
+                <action id="0" name="Play" sid="445664065996724" type="Audio">
+                    <param id="0" name="Audio file">okay</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="938156670028345">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="537899959065973" type="J3TrianguloVerde">
+                    <param id="0" name="Object">J3TrianguloCinza</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="468243313349436" type="J3TrianguloCinza">
+                    <param id="0" name="Animation">&quot;Acerto&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="5" name="Set frame" sid="279134968315853" type="J3TrianguloCinza">
+                    <param id="0" name="Frame number">J3TrianguloCinza.AnimationFrame</param>
+                </action>
+                <action id="0" name="Spawn another object" sid="914099309572749" type="J3TrianguloCinza">
+                    <param id="0" name="Object">J3Particula</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="-10" name="Add to" sid="105430585184271" type="System">
+                    <param id="0" name="Variable">Pontos</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-9" name="Destroy" sid="923632964248609" type="J3TrianguloVerde" />
+                <action id="0" name="Play" sid="615923864127407" type="Audio">
+                    <param id="0" name="Audio file">okay</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="925127710487145">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="104626597677516" type="System">
+                    <param id="0" name="Variable">Pontos</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">3</param>
+                </condition>
+                <condition id="-4" name="Trigger once while true" sid="475375879369818" type="System" />
+            </conditions>
+            <actions>
+                <action id="33" name="Stop all" sid="792044708648346" type="Audio" />
+                <action id="-4" name="Set layer visible" sid="685536710243222" type="System">
+                    <param id="0" name="Layer">&quot;vitoria&quot;</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+                <action id="0" name="Play" sid="930378784336790" type="Audio">
+                    <param id="0" name="Audio file">Victory</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="692830731870020">
+            <conditions>
+                <condition id="3" name="On touched object" sid="910450427280821" type="Touch">
+                    <param id="0" name="Object">J3BtnRestart</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Restart layout" sid="583050021443094" type="System" />
+                <action id="-21" name="Reset global variables" sid="131605079618887" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="666052232188979">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="824233683925092" type="J3QuadroVerde" />
+                <condition id="1" inverted="1" name="Is overlapping another object" sid="147163213462336" type="J3QuadroVerde">
+                    <param id="0" name="Object">J3quadradoCinza</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="662252902273188" type="J3QuadroVerde">
+                    <param id="0" name="X">124</param>
+                    <param id="1" name="Y">126</param>
+                </action>
+                <action id="-10" name="Add to" sid="808223417536837" type="System">
+                    <param id="0" name="Variable">Tentativas</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Play" sid="569284846350716" type="Audio">
+                    <param id="0" name="Audio file">fall</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="200263774837719">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="925334955730677" type="J3TrianguloVerde" />
+                <condition id="1" inverted="1" name="Is overlapping another object" sid="896636265246682" type="J3TrianguloVerde">
+                    <param id="0" name="Object">J3TrianguloCinza</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="233266786386423" type="J3TrianguloVerde">
+                    <param id="0" name="X">215</param>
+                    <param id="1" name="Y">353</param>
+                </action>
+                <action id="-10" name="Add to" sid="825390071946340" type="System">
+                    <param id="0" name="Variable">Tentativas</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Play" sid="680305093941915" type="Audio">
+                    <param id="0" name="Audio file">fall</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="434196063450782">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="141977447748046" type="J3CirculoVerde" />
+                <condition id="1" inverted="1" name="Is overlapping another object" sid="953299505133142" type="J3CirculoVerde">
+                    <param id="0" name="Object">J3CirculoCinza</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="161645280428110" type="J3CirculoVerde">
+                    <param id="0" name="X">139</param>
+                    <param id="1" name="Y">623</param>
+                </action>
+                <action id="-10" name="Add to" sid="294301372872328" type="System">
+                    <param id="0" name="Variable">Tentativas</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Play" sid="162226924586823" type="Audio">
+                    <param id="0" name="Audio file">fall</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="840885144406640">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="449710933055772" type="System" />
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="830841229304085" type="System">
+                    <param id="0" name="Layer">&quot;vitoria&quot;</param>
+                    <param id="1" name="Visibility">0</param>
+                </action>
+                <action id="0" name="Call function" sid="440975620367428" type="Function">
+                    <param id="0" name="Name">&quot;PlayAudio&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="752269095469454">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="561141660597811" type="System">
+                    <param id="0" name="Variable">Pontos</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="320981689403331" type="System">
+                    <param id="0" name="Layer">&quot;fase2&quot;</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="877961097698585">
+            <conditions>
+                <condition id="3" name="On touched object" sid="938733205483287" type="Touch">
+                    <param id="0" name="Object">GlobalMenu</param>
+                </condition>
+                <condition id="-9" name="Layer is visible" sid="879089938985160" type="System">
+                    <param id="0" name="Layer">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="141612514908249" type="System">
+                    <param id="0" name="Layout">Menu</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

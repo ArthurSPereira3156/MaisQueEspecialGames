@@ -1,0 +1,463 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Jogo2</name>
+    <events>
+        <include>Variaveis</include>
+        <variable constant="0" name="Fim2" sid="937337798087871" static="0" type="number">0</variable>
+        <variable constant="0" name="Tempo2" sid="818411910306758" static="0" type="number">0</variable>
+        <variable constant="0" name="Pontos2" sid="125736896400772" static="0" type="number">0</variable>
+        <variable constant="0" name="Tentativas2" sid="690350618780964" static="0" type="number">0</variable>
+        <event-block sid="459371859267603">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="458378304442181" type="System" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="135216638862856" type="J2Particula" />
+                <action disabled="1" id="-4" name="Set layer visible" sid="550025018495616" type="System">
+                    <param id="0" name="Layer">0</param>
+                    <param id="1" name="Visibility">0</param>
+                </action>
+                <action id="0" name="Call function" sid="371485703894408" type="Function">
+                    <param id="0" name="Name">&quot;PlayAudio&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="607875303407821">
+            <conditions>
+                <condition behavior="DragDrop" disabled="1" id="2" name="On drop" sid="558697045436391" type="J2XicaraColorida" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="756712683771273">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="934305398208028" type="J2XicaraColorida">
+                            <param id="0" name="Object">J2XicaraCinza</param>
+                        </condition>
+                        <condition id="3" name="Compare frame" sid="730509790932126" type="J2XicaraColorida">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">J2XicaraCinza.AnimationFrame</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="833935789888164" type="J2XicaraCinza">
+                            <param id="0" name="Animation">&quot;Acerto&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="915276806123350" type="J2XicaraCinza">
+                            <param id="0" name="Frame number">J2XicaraColorida.AnimationFrame</param>
+                        </action>
+                        <action id="0" name="Spawn another object" sid="484262755545517" type="J2XicaraCinza">
+                            <param id="0" name="Object">J1Particula</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="861197922523428" type="System">
+                            <param id="0" name="Variable">Pontos</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="436150571144844" type="J2XicaraColorida" />
+                        <action id="0" name="Play" sid="886717041572949" type="Audio">
+                            <param id="0" name="Audio file">okay</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="741239493470468" type="System">
+                            <param id="0" name="Variable">Tentativas</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="381090507570265">
+            <conditions>
+                <condition disabled="1" id="-13" name="Is between angles" sid="495851360091762" type="J2GarfosColoridos">
+                    <param id="0" name="First angle">0</param>
+                    <param id="1" name="Second angle">45</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="298171922326386">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="978132241910599" type="J2GarfosColoridos">
+                            <param id="0" name="Object">J2GarfosCinza</param>
+                        </condition>
+                        <condition id="3" name="Compare frame" sid="336784660510992" type="J2GarfosColoridos">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">J2GarfosCinza.AnimationFrame</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="634765592413337" type="J2GarfosCinza">
+                            <param id="0" name="Animation">&quot;Acerto&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="171319762561989" type="J2GarfosCinza">
+                            <param id="0" name="Frame number">J2XicaraColorida.AnimationFrame</param>
+                        </action>
+                        <action id="0" name="Spawn another object" sid="131262506237330" type="J2GarfosCinza">
+                            <param id="0" name="Object">J1Particula</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="124930532791174" type="System">
+                            <param id="0" name="Variable">Pontos</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="882218344998011" type="System">
+                            <param id="0" name="Variable">Tentativas</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="572856601364234" type="J2GarfosColoridos" />
+                        <action id="0" name="Play" sid="255404448721641" type="Audio">
+                            <param id="0" name="Audio file">okay</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="129319760645849">
+            <conditions />
+            <actions />
+            <sub-events>
+                <event-block sid="519670111797938">
+                    <conditions>
+                        <condition behavior="DragDrop" id="2" name="On drop" sid="870941764870250" type="J2ChaleiraColorida" />
+                        <condition id="1" inverted="1" name="Is overlapping another object" sid="239116124461462" type="J2ChaleiraColorida">
+                            <param id="0" name="Object">J2ChaleiraCinza</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="815020389330589" type="J2ChaleiraColorida">
+                            <param id="0" name="X">203.223</param>
+                            <param id="1" name="Y">367.073</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="727956305590996" type="System">
+                            <param id="0" name="Variable">Tentativas</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Play" sid="410387881157622" type="Audio">
+                            <param id="0" name="Audio file">fall</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="701700227444020">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="455212574915624" type="J2ChaleiraColorida">
+                            <param id="0" name="Object">J2ChaleiraCinza</param>
+                        </condition>
+                        <condition id="3" name="Compare frame" sid="496984527425087" type="J2ChaleiraColorida">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">J2ChaleiraCinza.AnimationFrame</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="249349674188814" type="J2ChaleiraCinza">
+                            <param id="0" name="Animation">&quot;Acerto&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="679118749555564" type="J2ChaleiraCinza">
+                            <param id="0" name="Frame number">J2ChaleiraColorida.AnimationFrame</param>
+                        </action>
+                        <action id="0" name="Spawn another object" sid="888374352678708" type="J2ChaleiraCinza">
+                            <param id="0" name="Object">J1Particula</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="821371826618199" type="System">
+                            <param id="0" name="Variable">Pontos</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="181795754738019" type="System">
+                            <param id="0" name="Variable">Tentativas</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="267923688820097" type="J2ChaleiraColorida" />
+                        <action id="0" name="Play" sid="133990492841662" type="Audio">
+                            <param id="0" name="Audio file">okay</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="838243020806185">
+            <conditions>
+                <condition disabled="1" id="-13" name="Is between angles" sid="802911795500324" type="J2CadeiraColorida">
+                    <param id="0" name="First angle">0</param>
+                    <param id="1" name="Second angle">45</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="963240953645956">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="664198991160577" type="J2CadeiraColorida">
+                            <param id="0" name="Object">J2CadeiraCinza</param>
+                        </condition>
+                        <condition id="3" name="Compare frame" sid="881246577075173" type="J2CadeiraColorida">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">J2CadeiraCinza.AnimationFrame</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="421268957191524" type="J2CadeiraCinza">
+                            <param id="0" name="Animation">&quot;Acerto&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="649380534065921" type="J2CadeiraCinza">
+                            <param id="0" name="Frame number">J2CadeiraCinza.AnimationFrame</param>
+                        </action>
+                        <action id="0" name="Spawn another object" sid="938330905926997" type="J2CadeiraCinza">
+                            <param id="0" name="Object">J1Particula</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="982451816363955" type="System">
+                            <param id="0" name="Variable">Pontos</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="119527014551801" type="System">
+                            <param id="0" name="Variable">Tentativas</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="624157871561091" type="J2CadeiraColorida" />
+                        <action id="0" name="Play" sid="268485674700085" type="Audio">
+                            <param id="0" name="Audio file">okay</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="661738563304877">
+                    <conditions>
+                        <condition behavior="DragDrop" id="2" name="On drop" sid="556952599583417" type="J2CadeiraColorida" />
+                        <condition id="1" inverted="1" name="Is overlapping another object" sid="963216728127359" type="J2CadeiraColorida">
+                            <param id="0" name="Object">J2CadeiraCinza</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="443489657638880" type="J2CadeiraColorida">
+                            <param id="0" name="X">220</param>
+                            <param id="1" name="Y">568</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="315550166427951" type="System">
+                            <param id="0" name="Variable">Tentativas</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Play" sid="465040418471734" type="Audio">
+                            <param id="0" name="Audio file">fall</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="763018745094598">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="266283188320443" type="J2XicaraColorida" />
+                <condition id="1" inverted="1" name="Is overlapping another object" sid="844502398285140" type="J2XicaraColorida">
+                    <param id="0" name="Object">J2XicaraCinza</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="155057384640389" type="J2XicaraColorida">
+                    <param id="0" name="X">170</param>
+                    <param id="1" name="Y">170</param>
+                </action>
+                <action id="-10" name="Add to" sid="518998575547825" type="System">
+                    <param id="0" name="Variable">Tentativas</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Play" sid="438821901614865" type="Audio">
+                    <param id="0" name="Audio file">fall</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="497061766455891">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="685425070654430" type="J2GarfosColoridos" />
+                <condition id="1" inverted="1" name="Is overlapping another object" sid="783446995681274" type="J2GarfosColoridos">
+                    <param id="0" name="Object">J2GarfosCinza</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="989930598447984" type="J2GarfosColoridos">
+                    <param id="0" name="X">103</param>
+                    <param id="1" name="Y">69</param>
+                </action>
+                <action id="-10" name="Add to" sid="949015488160628" type="System">
+                    <param id="0" name="Variable">Tentativas</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Play" sid="429949036541987" type="Audio">
+                    <param id="0" name="Audio file">fall</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="867152396484198">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="770018012655928" type="J2Ferramenta" />
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="832190624143170" type="J2Ferramenta">
+                    <param id="0" name="X">73.277</param>
+                    <param id="1" name="Y">253.573</param>
+                </action>
+                <action id="-10" name="Add to" sid="489173770832625" type="System">
+                    <param id="0" name="Variable">Tentativas</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Play" sid="190423898278924" type="Audio">
+                    <param id="0" name="Audio file">fall</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="961932117575598">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="862545991016686" type="J2Volante" />
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="594883680311267" type="J2Volante">
+                    <param id="0" name="X">100</param>
+                    <param id="1" name="Y">653</param>
+                </action>
+                <action id="-10" name="Add to" sid="590098233502073" type="System">
+                    <param id="0" name="Variable">Tentativas</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Play" sid="886651403459429" type="Audio">
+                    <param id="0" name="Audio file">fall</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="718807949463409">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="486111199343585" type="J2PneuColorido" />
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="978780279439436" type="J2PneuColorido">
+                    <param id="0" name="X">80</param>
+                    <param id="1" name="Y">473</param>
+                </action>
+                <action id="-10" name="Add to" sid="292547883617466" type="System">
+                    <param id="0" name="Variable">Tentativas</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Play" sid="731293649028792" type="Audio">
+                    <param id="0" name="Audio file">fall</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="662323583955195">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="557372125073634" type="System">
+                    <param id="0" name="Variable">Pontos</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">4</param>
+                </condition>
+                <condition id="-4" name="Trigger once while true" sid="884507171047634" type="System" />
+            </conditions>
+            <actions>
+                <action id="33" name="Stop all" sid="456448345956649" type="Audio" />
+                <action id="-4" name="Set layer visible" sid="229903113202065" type="System">
+                    <param id="0" name="Layer">&quot;Vitoria&quot;</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="809890570694049" type="J2Volante">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="511367018086707" type="J2Ferramenta">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="553431971822187" type="J2PneuColorido">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="0" name="Play" sid="310270832356905" type="Audio">
+                    <param id="0" name="Audio file">Victory</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="393055006592844">
+            <conditions>
+                <condition id="3" name="On touched object" sid="543286118225677" type="Touch">
+                    <param id="0" name="Object">J2BotaoVoltar</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-21" name="Reset global variables" sid="321725755330526" type="System" />
+                <action id="-26" name="Restart layout" sid="400316572315359" type="System" />
+                <action id="-4" name="Set layer visible" sid="393325484013242" type="System">
+                    <param id="0" name="Layer">1</param>
+                    <param id="1" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="158283595636344">
+            <conditions>
+                <condition disabled="1" id="-4" name="Trigger once while true" sid="376162290206295" type="System" />
+            </conditions>
+            <actions />
+        </event-block>
+        <event-block sid="695599338419938">
+            <conditions>
+                <condition id="3" name="On touched object" sid="717479115384233" type="Touch">
+                    <param id="0" name="Object">J2VoltarMenu</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="916866563234075" type="System">
+                    <param id="0" name="Layout">Menu</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="671327427898525">
+            <conditions>
+                <condition id="3" name="On touched object" sid="116118983464456" type="Touch">
+                    <param id="0" name="Object">GlobalMenu</param>
+                </condition>
+                <condition id="-9" name="Layer is visible" sid="457451881775167" type="System">
+                    <param id="0" name="Layer">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="868278742447552" type="System">
+                    <param id="0" name="Layout">Menu</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Jogo5</name>
+    <events>
+        <include>Variaveis</include>
+        <variable constant="0" name="Pontos5" sid="532955967477983" static="0" type="number">0</variable>
+        <variable constant="0" name="Tentativas5" sid="303780269505796" static="0" type="number">0</variable>
+        <variable constant="0" name="Fim5" sid="610092073721486" static="0" type="number">0</variable>
+        <variable constant="0" name="Tempo5" sid="608023038508215" static="0" type="number">0</variable>
+        <event-block sid="763500878077229">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="255460277340383" type="System" />
+            </conditions>
+            <actions>
+                <action disabled="1" id="0" name="Play" sid="742806866777096" type="Audio">
+                    <param id="0" name="Audio file">Gunma-chanGambol</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="0" name="Play" sid="410497860321670" type="Audio">
+                    <param id="0" name="Audio file">CAT</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="214264080466846" type="System">
+                    <param id="0" name="Seconds">1</param>
+                </action>
+                <action id="0" name="Play" sid="330955565073416" type="Audio">
+                    <param id="0" name="Audio file">CAT</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="0" name="Call function" sid="961749858678180" type="Function">
+                    <param id="0" name="Name">&quot;PlayAudio&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="439871469328106">
+            <conditions>
+                <condition id="3" name="On touched object" sid="205221440162428" type="Touch">
+                    <param id="0" name="Object">J5BotaoTocarMusica</param>
+                </condition>
+                <condition id="-9" inverted="1" name="Layer is visible" sid="674070827437916" type="System">
+                    <param id="0" name="Layer">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="125609467247046" type="Audio">
+                    <param id="0" name="Audio file">CAT</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="223002084529997">
+            <conditions>
+                <condition id="3" name="On touched object" sid="804484105194819" type="Touch">
+                    <param id="0" name="Object">J5Gato</param>
+                </condition>
+                <condition id="-9" inverted="1" name="Layer is visible" sid="143559687519461" type="System">
+                    <param id="0" name="Layer">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="597476419419072" type="Audio">
+                    <param id="0" name="Audio file">okay</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-10" name="Add to" sid="665702362294838" type="System">
+                    <param id="0" name="Variable">Pontos</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="345725288871145">
+            <conditions>
+                <condition id="3" name="On touched object" sid="351526037806027" type="Touch">
+                    <param id="0" name="Object">J5Leao</param>
+                </condition>
+                <condition id="-9" inverted="1" name="Layer is visible" sid="209531872934447" type="System">
+                    <param id="0" name="Layer">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="857076379419128" type="Audio">
+                    <param id="0" name="Audio file">fall</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="744984825803602">
+            <conditions>
+                <condition id="3" name="On touched object" sid="359220408155909" type="Touch">
+                    <param id="0" name="Object">J5Cachorro</param>
+                </condition>
+                <condition id="-9" inverted="1" name="Layer is visible" sid="990497012193263" type="System">
+                    <param id="0" name="Layer">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="983544995486855" type="Audio">
+                    <param id="0" name="Audio file">fall</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="494770547670153">
+            <conditions>
+                <condition id="3" name="On touched object" sid="338665464911023" type="Touch">
+                    <param id="0" name="Object">J5Vaca</param>
+                </condition>
+                <condition id="-9" inverted="1" name="Layer is visible" sid="946332156398026" type="System">
+                    <param id="0" name="Layer">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="374111369661397" type="Audio">
+                    <param id="0" name="Audio file">fall</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="773207707861850">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="265768963343334" type="System" />
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="767151078436612" type="System">
+                    <param id="0" name="Layer">&quot;Vitoria&quot;</param>
+                    <param id="1" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="532094480500705">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="365139381505676" type="System">
+                    <param id="0" name="Variable">Pontos</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+                <condition id="-4" name="Trigger once while true" sid="167370680680510" type="System" />
+            </conditions>
+            <actions>
+                <action id="33" name="Stop all" sid="888080168273584" type="Audio" />
+                <action id="-4" name="Set layer visible" sid="745739196423967" type="System">
+                    <param id="0" name="Layer">&quot;Vitoria&quot;</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+                <action id="0" name="Play" sid="346927648777426" type="Audio">
+                    <param id="0" name="Audio file">Victory</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="156372134911620">
+            <conditions>
+                <condition id="3" name="On touched object" sid="612174117311606" type="Touch">
+                    <param id="0" name="Object">J5BtnRestart</param>
+                </condition>
+                <condition id="-9" name="Layer is visible" sid="986290900792463" type="System">
+                    <param id="0" name="Layer">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-21" name="Reset global variables" sid="419919717294620" type="System" />
+                <action id="-26" name="Restart layout" sid="176745540422231" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="468514473894311">
+            <conditions>
+                <condition id="3" name="On touched object" sid="243630144619412" type="Touch">
+                    <param id="0" name="Object">GlobalMenu</param>
+                </condition>
+                <condition id="-9" name="Layer is visible" sid="908436594341579" type="System">
+                    <param id="0" name="Layer">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="417816341358412" type="System">
+                    <param id="0" name="Layout">Menu</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

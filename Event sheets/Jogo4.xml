@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Jogo4</name>
+    <events>
+        <include>Variaveis</include>
+        <variable constant="0" name="Pontos4" sid="161132333526802" static="0" type="number">0</variable>
+        <variable constant="0" name="Fim4" sid="422911740528034" static="0" type="number">0</variable>
+        <variable constant="0" name="Tempo4" sid="971029474770821" static="0" type="number">0</variable>
+        <variable constant="0" name="Tentativas4" sid="871538304852399" static="0" type="number">0</variable>
+        <event-block sid="378289864988542">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="620309751021932" type="System" />
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="779344461183849" type="System">
+                    <param id="0" name="Layer">&quot;Vitoria&quot;</param>
+                    <param id="1" name="Visibility">0</param>
+                </action>
+                <action id="0" name="Call function" sid="492925318228972" type="Function">
+                    <param id="0" name="Name">&quot;PlayAudio&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="426576073193524">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="585265419897564" type="J4CabecaColorida">
+                    <param id="0" name="Object">J4CabecaCinza</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="736752031421415" type="System">
+                    <param id="0" name="Variable">Pontos</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Spawn another object" sid="213762316006246" type="J4CabecaCinza">
+                    <param id="0" name="Object">J4Particula</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="0" name="Play" sid="789231690262050" type="Audio">
+                    <param id="0" name="Audio file">okay</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-9" name="Destroy" sid="688363563269141" type="J4CabecaColorida" />
+                <action id="5" name="Set frame" sid="129804547404833" type="J4CabecaCinza">
+                    <param id="0" name="Frame number">J4CabecaCinza.AnimationFrame</param>
+                </action>
+                <action id="4" name="Set animation" sid="773117543620478" type="J4CabecaCinza">
+                    <param id="0" name="Animation">&quot;Acerto&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="-10" name="Add to" sid="226215820639989" type="System">
+                    <param id="0" name="Variable">Tentativas</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="197982273984834">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="179289188532208" type="J4BracoDireitoColorido">
+                    <param id="0" name="Object">J4BracoDireitoCinza</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="135833056738959" type="System">
+                    <param id="0" name="Variable">Pontos</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Spawn another object" sid="103898902329717" type="J4BracoDireitoCinza">
+                    <param id="0" name="Object">J4Particula</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="0" name="Play" sid="607124598611234" type="Audio">
+                    <param id="0" name="Audio file">okay</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-9" name="Destroy" sid="603664218214675" type="J4BracoDireitoColorido" />
+                <action id="5" name="Set frame" sid="319094704814439" type="J4BracoDireitoCinza">
+                    <param id="0" name="Frame number">J4BracoDireitoCinza.AnimationFrame</param>
+                </action>
+                <action id="4" name="Set animation" sid="131380969497652" type="J4BracoDireitoCinza">
+                    <param id="0" name="Animation">&quot;Acerto&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="-10" name="Add to" sid="603886966181364" type="System">
+                    <param id="0" name="Variable">Tentativas</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="382072545941387">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="745235150428520" type="J4BracoEsquerdoColorido">
+                    <param id="0" name="Object">J4BracoEsquerdo</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="269651334664275" type="System">
+                    <param id="0" name="Variable">Pontos</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Spawn another object" sid="611110709276416" type="J4BracoEsquerdo">
+                    <param id="0" name="Object">J4Particula</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="0" name="Play" sid="952151574606418" type="Audio">
+                    <param id="0" name="Audio file">okay</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-9" name="Destroy" sid="841617853530853" type="J4BracoEsquerdoColorido" />
+                <action id="5" name="Set frame" sid="970699624753068" type="J4BracoEsquerdo">
+                    <param id="0" name="Frame number">J4BracoEsquerdo.AnimationFrame</param>
+                </action>
+                <action id="4" name="Set animation" sid="638995844683001" type="J4BracoEsquerdo">
+                    <param id="0" name="Animation">&quot;Acerto&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="-10" name="Add to" sid="908072988283927" type="System">
+                    <param id="0" name="Variable">Tentativas</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="224590741497862">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="959804782189879" type="J4ToncoColorido">
+                    <param id="0" name="Object">J4TroncoCinza</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="282261506328119" type="System">
+                    <param id="0" name="Variable">Pontos</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Spawn another object" sid="926558653600356" type="J4TroncoCinza">
+                    <param id="0" name="Object">J4Particula</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="0" name="Play" sid="318190976179486" type="Audio">
+                    <param id="0" name="Audio file">okay</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-9" name="Destroy" sid="482771318278524" type="J4ToncoColorido" />
+                <action id="5" name="Set frame" sid="560087164268339" type="J4TroncoCinza">
+                    <param id="0" name="Frame number">J4TroncoCinza.AnimationFrame</param>
+                </action>
+                <action id="4" name="Set animation" sid="383079597648925" type="J4TroncoCinza">
+                    <param id="0" name="Animation">&quot;Acerto&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="-10" name="Add to" sid="324635480816139" type="System">
+                    <param id="0" name="Variable">Tentativas</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="847128680816035">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="937568166455024" type="J4PernasColoridas">
+                    <param id="0" name="Object">J4PernasCinzas</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="677660093351763" type="System">
+                    <param id="0" name="Variable">Pontos</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Spawn another object" sid="855669394335745" type="J4PernasCinzas">
+                    <param id="0" name="Object">J4Particula</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="0" name="Play" sid="103007442289721" type="Audio">
+                    <param id="0" name="Audio file">okay</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-9" name="Destroy" sid="997596937981496" type="J4PernasColoridas" />
+                <action id="5" name="Set frame" sid="589865991290064" type="J4PernasCinzas">
+                    <param id="0" name="Frame number">J4PernasCinzas.AnimationFrame</param>
+                </action>
+                <action id="4" name="Set animation" sid="651158927384399" type="J4PernasCinzas">
+                    <param id="0" name="Animation">&quot;Acerto&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="-10" name="Add to" sid="829916342792761" type="System">
+                    <param id="0" name="Variable">Tentativas</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="926251625303603">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="243334904389396" type="System">
+                    <param id="0" name="Variable">Pontos</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">5</param>
+                </condition>
+                <condition id="-4" name="Trigger once while true" sid="900254568725735" type="System" />
+            </conditions>
+            <actions>
+                <action id="33" name="Stop all" sid="608285231183771" type="Audio" />
+                <action id="-4" name="Set layer visible" sid="960320502480650" type="System">
+                    <param id="0" name="Layer">&quot;Vitoria&quot;</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+                <action id="0" name="Play" sid="604039557360300" type="Audio">
+                    <param id="0" name="Audio file">Victory</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="824884311736091">
+            <conditions>
+                <condition id="3" name="On touched object" sid="667532360357823" type="Touch">
+                    <param id="0" name="Object">J4BtnRestart</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-21" name="Reset global variables" sid="408728519683939" type="System" />
+                <action id="-26" name="Restart layout" sid="807873464651833" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="900329162495715">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="389854267629898" type="J4CabecaColorida" />
+                <condition id="1" inverted="1" name="Is overlapping another object" sid="325735050946460" type="J4CabecaColorida">
+                    <param id="0" name="Object">J4CabecaCinza</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="147507351426253" type="J4CabecaColorida">
+                    <param id="0" name="X">110</param>
+                    <param id="1" name="Y">536</param>
+                </action>
+                <action id="0" name="Play" sid="293235311176206" type="Audio">
+                    <param id="0" name="Audio file">fall</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-10" name="Add to" sid="104471985807292" type="System">
+                    <param id="0" name="Variable">Tentativas</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="637812782388963">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="657297407461067" type="J4PernasColoridas" />
+                <condition id="1" inverted="1" name="Is overlapping another object" sid="278464504942872" type="J4PernasColoridas">
+                    <param id="0" name="Object">J4PernasCinzas</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="612010290429145" type="J4PernasColoridas">
+                    <param id="0" name="X">99</param>
+                    <param id="1" name="Y">395</param>
+                </action>
+                <action id="0" name="Play" sid="643258244193090" type="Audio">
+                    <param id="0" name="Audio file">fall</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-10" name="Add to" sid="845627241861823" type="System">
+                    <param id="0" name="Variable">Tentativas</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="938053289699019">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="398191905016371" type="J4ToncoColorido" />
+                <condition id="1" inverted="1" name="Is overlapping another object" sid="329109873618070" type="J4ToncoColorido">
+                    <param id="0" name="Object">J4TroncoCinza</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="140946665579348" type="J4ToncoColorido">
+                    <param id="0" name="X">90.5</param>
+                    <param id="1" name="Y">79.763</param>
+                </action>
+                <action id="0" name="Play" sid="763528261832474" type="Audio">
+                    <param id="0" name="Audio file">fall</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-10" name="Add to" sid="861442562882325" type="System">
+                    <param id="0" name="Variable">Tentativas</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="320540501502847">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="741556114953379" type="J4BracoEsquerdoColorido" />
+                <condition id="1" inverted="1" name="Is overlapping another object" sid="600216733160193" type="J4BracoEsquerdoColorido">
+                    <param id="0" name="Object">J4BracoEsquerdo</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="642990801568138" type="J4BracoEsquerdoColorido">
+                    <param id="0" name="X">106</param>
+                    <param id="1" name="Y">234</param>
+                </action>
+                <action id="0" name="Play" sid="588377434468502" type="Audio">
+                    <param id="0" name="Audio file">fall</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-10" name="Add to" sid="877269606551132" type="System">
+                    <param id="0" name="Variable">Tentativas</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="805631014133588">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="770536181610701" type="J4BracoDireitoColorido" />
+                <condition id="1" inverted="1" name="Is overlapping another object" sid="994865250607745" type="J4BracoDireitoColorido">
+                    <param id="0" name="Object">J4BracoDireitoCinza</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="395301688413464" type="J4BracoDireitoColorido">
+                    <param id="0" name="X">111</param>
+                    <param id="1" name="Y">683</param>
+                </action>
+                <action id="0" name="Play" sid="712918139374403" type="Audio">
+                    <param id="0" name="Audio file">fall</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-10" name="Add to" sid="491382395554154" type="System">
+                    <param id="0" name="Variable">Tentativas</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="380106607069883">
+            <conditions>
+                <condition id="3" name="On touched object" sid="474026226661490" type="Touch">
+                    <param id="0" name="Object">GlobalMenu</param>
+                </condition>
+                <condition id="-9" name="Layer is visible" sid="996958487733134" type="System">
+                    <param id="0" name="Layer">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="755660322366741" type="System">
+                    <param id="0" name="Layout">Menu</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

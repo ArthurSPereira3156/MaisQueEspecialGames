@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Loading</name>
+    <events>
+        <include>Variaveis</include>
+        <event-block sid="229762235029907">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="677141308235388" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="585773034155606" type="LoadingFont">
+                    <param id="0" name="Text">round(loadingprogress*100)&amp;&quot;%%%&quot;</param>
+                </action>
+                <action id="-5" name="Set width" sid="219758862221190" type="BArraLoading">
+                    <param id="0" name="Width">round(loadingprogress*481)</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="828807173314040">
+            <conditions>
+                <condition id="-25" name="On loader layout complete" sid="686413010107105" type="System" />
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="322443616032625" type="System">
+                    <param id="0" name="Seconds">0.8</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="834285264261240" type="System">
+                    <param id="0" name="Layout">Login</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="370779839629963">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="621921105388478" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Call function" sid="570195765787951" type="Function">
+                    <param id="0" name="Name">&quot;PlayAudio&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

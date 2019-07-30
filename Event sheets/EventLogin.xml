@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>EventLogin</name>
+    <events>
+        <include>Variaveis</include>
+        <event-block sid="708341336031279">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="446883048004622" type="System" />
+            </conditions>
+            <actions />
+        </event-block>
+        <event-block sid="411837938587548">
+            <conditions>
+                <condition id="3" name="On touched object" sid="422133037896097" type="Touch">
+                    <param id="0" name="Object">txtEntrar</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action disabled="1" id="2" name="Post to URL" sid="346566306670454" type="AJAX">
+                    <param id="0" name="Tag">&quot;Login&quot;</param>
+                    <param id="1" name="URL">&quot;http://www.mocky.io/v2/5d2ba55f3100006700582276&quot;</param>
+                    <param id="2" name="Data">&quot;Teste&quot;</param>
+                    <param id="3" name="Method">&quot;PUT&quot;</param>
+                </action>
+                <action id="0" name="Request URL" sid="720738587980237" type="AJAX">
+                    <param id="0" name="Tag">&quot;Login&quot;</param>
+                    <param id="1" name="URL">&quot;https://mais-que-especial.herokuapp.com/especial/listaGamesPorUsuario/&quot;&amp;txtLogin.Text</param>
+                </action>
+                <action id="-4" name="Set layer visible" sid="266656111635348" type="System">
+                    <param id="0" name="Layer">&quot;Loading&quot;</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+                <action disabled="1" id="0" name="Request URL" sid="473503842540333" type="AJAX">
+                    <param id="0" name="Tag">&quot;&quot;</param>
+                    <param id="1" name="URL">&quot;http://&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="228306227247190" type="System">
+                    <param id="0" name="Layout">Menu</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="764497908402605">
+            <conditions>
+                <condition id="2" name="On progress" sid="390179683653092" type="AJAX">
+                    <param id="0" name="Tag">&quot;Login&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="988151465462458" type="System">
+                    <param id="0" name="Layer">&quot;Loading&quot;</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="735142767792860">
+            <conditions>
+                <condition id="0" name="On completed" sid="100906049666800" type="AJAX">
+                    <param id="0" name="Tag">&quot;Login&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="889487771887340" type="System">
+                    <param id="0" name="Layer">&quot;Loading&quot;</param>
+                    <param id="1" name="Visibility">0</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="353981170646868" type="System">
+                    <param id="0" name="Layout">Menu</param>
+                </action>
+                <action id="11" name="Load" sid="340540391958642" type="Games">
+                    <param id="0" name="JSON">AJAX.LastData</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="465714583665023">
+            <conditions>
+                <condition id="0" name="On function" sid="809435976920568" type="Function">
+                    <param id="0" name="Name">&quot;EnviaPontuacao&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="2" name="Post to URL" sid="179917859808595" type="AJAX">
+                    <param id="0" name="Tag">&quot;Login&quot;</param>
+                    <param id="1" name="URL">&quot;https://mais-que-especial.herokuapp.com/especial/addJogadas&quot;</param>
+                    <param id="2" name="Data">postaData</param>
+                    <param id="3" name="Method">&quot;POST&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="256743965097138">
+            <conditions>
+                <condition id="2" name="On progress" sid="736171354958722" type="AJAX">
+                    <param id="0" name="Tag">&quot;EnviaPontuacao&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="898213576469907" type="System">
+                    <param id="0" name="Layer">&quot;Loading&quot;</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="902531576032156">
+            <conditions>
+                <condition id="0" name="On completed" sid="143808346216186" type="AJAX">
+                    <param id="0" name="Tag">&quot;EnviaPontuacao&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="629350589676248" type="System">
+                    <param id="0" name="Layer">&quot;Loading&quot;</param>
+                    <param id="1" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="790483192563115">
+            <conditions>
+                <condition id="1" name="On error" sid="393537050868132" type="AJAX">
+                    <param id="0" name="Tag">&quot;EnviaPontuacao&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="210079167660106" type="System">
+                    <param id="0" name="Layer">&quot;Loading&quot;</param>
+                    <param id="1" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Jogo8</name>
+    <events>
+        <variable constant="0" name="Pontos8" sid="795657402735492" static="0" type="number">0</variable>
+        <event-block sid="348762215229798">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="320903831549396" type="System" />
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="422435234279015" type="System">
+                    <param id="0" name="Layer">1</param>
+                    <param id="1" name="Visibility">0</param>
+                </action>
+                <action id="0" name="Play" sid="509238477495193" type="Audio">
+                    <param id="0" name="Audio file">Gunma-chanGambol</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="111535119224178">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="835166350567150" type="System">
+                    <param id="0" name="Variable">Pontos8</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">3</param>
+                </condition>
+                <condition id="-4" name="Trigger once while true" sid="377520650244906" type="System" />
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="587875661589179" type="System">
+                    <param id="0" name="Layer">1</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+                <action id="33" name="Stop all" sid="961710529236845" type="Audio" />
+                <action disabled="1" id="-16" name="Wait" sid="940678881698304" type="System">
+                    <param id="0" name="Seconds">3</param>
+                </action>
+                <action id="0" name="Play" sid="466864582853251" type="Audio">
+                    <param id="0" name="Audio file">Victory</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="912371415685090">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="192244668066151" type="JTSolColorido">
+                    <param id="0" name="Object">JTSolCinza</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="334224194256578" type="Audio">
+                    <param id="0" name="Audio file">okay</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-10" name="Add to" sid="350855629360668" type="System">
+                    <param id="0" name="Variable">Pontos8</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Spawn another object" sid="570858948127717" type="JTSolCinza">
+                    <param id="0" name="Object">J1Particula</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="5" name="Set frame" sid="267094057370596" type="JTSolCinza">
+                    <param id="0" name="Frame number">JTSolCinza.AnimationFrame</param>
+                </action>
+                <action id="4" name="Set animation" sid="370529676340599" type="JTSolCinza">
+                    <param id="0" name="Animation">&quot;Acerto&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="-9" name="Destroy" sid="732568991493078" type="JTSolColorido" />
+            </actions>
+        </event-block>
+        <event-block sid="452354188336633">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="721873724455226" type="JTBolacolorida">
+                    <param id="0" name="Object">JTBolaCinza</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="359748303995456" type="Audio">
+                    <param id="0" name="Audio file">okay</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-10" name="Add to" sid="661985455569876" type="System">
+                    <param id="0" name="Variable">Pontos8</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Spawn another object" sid="320120295252775" type="JTBolaCinza">
+                    <param id="0" name="Object">J1Particula</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="5" name="Set frame" sid="828599301902327" type="JTBolaCinza">
+                    <param id="0" name="Frame number">JTBolaCinza.AnimationFrame</param>
+                </action>
+                <action id="4" name="Set animation" sid="164278160589628" type="JTBolaCinza">
+                    <param id="0" name="Animation">&quot;Acerto&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="-9" name="Destroy" sid="496546064262241" type="JTBolacolorida" />
+            </actions>
+        </event-block>
+        <event-block sid="324106651827759">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="586495278462015" type="JTMEninoColorido">
+                    <param id="0" name="Object">JTMeninoCinza</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="995013858145134" type="Audio">
+                    <param id="0" name="Audio file">okay</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-10" name="Add to" sid="190503515499754" type="System">
+                    <param id="0" name="Variable">Pontos8</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Spawn another object" sid="173712662235702" type="JTMeninoCinza">
+                    <param id="0" name="Object">J1Particula</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="5" name="Set frame" sid="493194744144058" type="JTMeninoCinza">
+                    <param id="0" name="Frame number">JTMeninoCinza.AnimationFrame</param>
+                </action>
+                <action id="4" name="Set animation" sid="329357409422920" type="JTMeninoCinza">
+                    <param id="0" name="Animation">&quot;Acerto&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="-9" name="Destroy" sid="303023073714537" type="JTMEninoColorido" />
+            </actions>
+        </event-block>
+        <event-block sid="800179301957773">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="208000411781637" type="JTCama" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="670707733324654" type="Audio">
+                    <param id="0" name="Audio file">fall</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-3" name="Set position" sid="522962811906753" type="JTCama">
+                    <param id="0" name="X">150</param>
+                    <param id="1" name="Y">161</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="554259171943645">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="144130100427535" type="JtEstrela" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="331749071597842" type="Audio">
+                    <param id="0" name="Audio file">fall</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-3" name="Set position" sid="269944789331480" type="JtEstrela">
+                    <param id="0" name="X">208</param>
+                    <param id="1" name="Y">419</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="688374725175507">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="876055051052141" type="JTLua" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="889602201655788" type="Audio">
+                    <param id="0" name="Audio file">fall</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-3" name="Set position" sid="107082975640862" type="JTLua">
+                    <param id="0" name="X">80</param>
+                    <param id="1" name="Y">507</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="910883089458838">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="979632107105561" type="JTBolacolorida" />
+                <condition id="1" inverted="1" name="Is overlapping another object" sid="208035502313641" type="JTBolacolorida">
+                    <param id="0" name="Object">JTBolaCinza</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="637466344015075" type="Audio">
+                    <param id="0" name="Audio file">fall</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-3" name="Set position" sid="873921759335574" type="JTBolacolorida">
+                    <param id="0" name="X">83</param>
+                    <param id="1" name="Y">76</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="916804270088961">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="131337408030478" type="JTMEninoColorido" />
+                <condition id="1" inverted="1" name="Is overlapping another object" sid="901499789909617" type="JTMEninoColorido">
+                    <param id="0" name="Object">JTMeninoCinza</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="839143046156101" type="Audio">
+                    <param id="0" name="Audio file">fall</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-3" name="Set position" sid="968088595620214" type="JTBolacolorida">
+                    <param id="0" name="X">76</param>
+                    <param id="1" name="Y">307</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="109571990689809">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="919906399235392" type="JTBolacolorida" />
+                <condition id="1" inverted="1" name="Is overlapping another object" sid="474478081349144" type="JTMEninoColorido">
+                    <param id="0" name="Object">JTMeninoCinza</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="424729432334401" type="Audio">
+                    <param id="0" name="Audio file">fall</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-3" name="Set position" sid="196959817774428" type="JTBolacolorida">
+                    <param id="0" name="X">83</param>
+                    <param id="1" name="Y">76</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

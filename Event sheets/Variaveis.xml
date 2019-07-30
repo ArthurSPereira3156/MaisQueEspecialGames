@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Variaveis</name>
+    <events>
+        <variable constant="0" name="ProximaFase" sid="930031478671198" static="0" type="text"></variable>
+        <variable constant="0" name="line1" sid="842638479459083" static="0" type="number">1</variable>
+        <variable constant="0" name="Col" sid="851951639570478" static="0" type="number">1</variable>
+        <variable constant="0" name="CardPositionX" sid="260619273987142" static="0" type="number">263</variable>
+        <variable constant="0" name="CardPositionY" sid="425895671430317" static="0" type="number">280</variable>
+        <variable constant="0" name="CardNextX" sid="508077376961237" static="0" type="number">375</variable>
+        <variable constant="0" name="CardNextY" sid="598477243519542" static="0" type="number">320</variable>
+        <variable constant="0" name="postaData" sid="984285603358828" static="0" type="text">{&quot;login&quot;:&quot;ramon&quot;, &quot;jogo&quot;:&quot;1&quot;, &quot;tempo&quot;:&quot;4&quot;, &quot;tentativas&quot;:&quot;3&quot;}</variable>
+        <event-block sid="211868957702240">
+            <conditions>
+                <condition id="0" name="On function" sid="519409597170439" type="Function">
+                    <param id="0" name="Name">&quot;PlayAudio&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-21" name="Reset global variables" sid="146070594951938" type="System" />
+            </actions>
+            <sub-events>
+                <event-block sid="537208266071905">
+                    <conditions>
+                        <condition id="4" inverted="1" name="Is any playing" sid="773954203331173" type="Audio" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="599998227947485" type="Audio">
+                            <param id="0" name="Audio file">Gunma-chanGambol</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="336643543274176">
+            <conditions>
+                <condition id="3" name="On touched object" sid="494046871633162" type="Touch">
+                    <param id="0" name="Object">GlobalRestart</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-21" name="Reset global variables" sid="470109855178430" type="System" />
+                <action id="-26" name="Restart layout" sid="486063199500195" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="684698492871957">
+            <conditions>
+                <condition id="3" name="On touched object" sid="276366811844038" type="Touch">
+                    <param id="0" name="Object">GlobalMenu</param>
+                </condition>
+                <condition id="-9" name="Layer is visible" sid="939769544667063" type="System">
+                    <param id="0" name="Layer">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="168985302562634" type="System">
+                    <param id="0" name="Layout">Menu</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="650314691135012">
+            <conditions>
+                <condition id="3" name="On touched object" sid="140335176912363" type="Touch">
+                    <param id="0" name="Object">GlobalProximo</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-43" name="Go to next/previous layout" sid="789014868035377" type="System">
+                    <param id="0" name="Which">0</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

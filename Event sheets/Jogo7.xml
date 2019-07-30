@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Jogo7</name>
+    <events>
+        <include>Variaveis</include>
+        <variable constant="0" name="Pontos7" sid="425250348495997" static="0" type="number">0</variable>
+        <event-block sid="250557259215724">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="333965496350305" type="J7MeninoColorido">
+                    <param id="0" name="Object">J7MeninoCinza</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="865425667298177" type="J7MeninoCinza">
+                    <param id="0" name="Animation">&quot;Acerto&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="5" name="Set frame" sid="746664380401856" type="J7MeninoCinza">
+                    <param id="0" name="Frame number">J7MeninoColorido.AnimationFrame</param>
+                </action>
+                <action id="0" name="Spawn another object" sid="983013909611607" type="J7MeninoCinza">
+                    <param id="0" name="Object">J1Particula</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="0" name="Play" sid="387982492878538" type="Audio">
+                    <param id="0" name="Audio file">okay</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-10" name="Add to" sid="823167666554579" type="System">
+                    <param id="0" name="Variable">Pontos7</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-9" name="Destroy" sid="708479366502881" type="J7MeninoColorido" />
+            </actions>
+        </event-block>
+        <event-block sid="490378615395680">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="472982715815340" type="J7MeninoAmareloErrado" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="205637631651926" type="Audio">
+                    <param id="0" name="Audio file">fall</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-3" name="Set position" sid="857565908981286" type="J7MeninoAmareloErrado">
+                    <param id="0" name="X">137</param>
+                    <param id="1" name="Y">178</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="221774921316203">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="727568703686299" type="J7MeninoVermelhoErrado" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="669884711909097" type="Audio">
+                    <param id="0" name="Audio file">fall</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-3" name="Set position" sid="903959149439340" type="J7MeninoVermelhoErrado">
+                    <param id="0" name="X">105</param>
+                    <param id="1" name="Y">655</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="890383154075371">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="268756049934964" type="J7MeninoColorido" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="700591813045498" type="Audio">
+                    <param id="0" name="Audio file">fall</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-3" name="Set position" sid="149823810618396" type="J7MeninoColorido">
+                    <param id="0" name="X">139</param>
+                    <param id="1" name="Y">408</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="475583983929258">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="731900257004220" type="System" />
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="602284639694022" type="System">
+                    <param id="0" name="Layer">1</param>
+                    <param id="1" name="Visibility">0</param>
+                </action>
+                <action id="0" name="Call function" sid="597678042377504" type="Function">
+                    <param id="0" name="Name">&quot;PlayAudio&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="897126454802691">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="414335027304158" type="System">
+                    <param id="0" name="Variable">Pontos7</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+                <condition id="-4" name="Trigger once while true" sid="388973370407923" type="System" />
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="616296389672087" type="System">
+                    <param id="0" name="Layer">1</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+                <action id="33" name="Stop all" sid="997004158220470" type="Audio" />
+                <action disabled="1" id="-16" name="Wait" sid="129456552901590" type="System">
+                    <param id="0" name="Seconds">2.0</param>
+                </action>
+                <action id="0" name="Play" sid="701386354548845" type="Audio">
+                    <param id="0" name="Audio file">Victory</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-9" name="Set value" sid="341976198600397" type="System">
+                    <param id="0" name="Variable">ProximaFase</param>
+                    <param id="1" name="Value">&quot;Fase2&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

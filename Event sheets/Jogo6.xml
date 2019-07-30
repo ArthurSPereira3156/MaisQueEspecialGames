@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Jogo6</name>
+    <events>
+        <include>Variaveis</include>
+        <variable constant="0" name="Pontos6" sid="305176329062908" static="0" type="number">0</variable>
+        <event-block sid="265446353836922">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="804368016079876" type="System" />
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="637255159911172" type="System">
+                    <param id="0" name="Layer">&quot;Vitoria&quot;</param>
+                    <param id="1" name="Visibility">0</param>
+                </action>
+                <action id="0" name="Call function" sid="913913975670281" type="Function">
+                    <param id="0" name="Name">&quot;PlayAudio&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="649829690751295">
+            <conditions>
+                <condition id="3" name="On touched object" sid="708582273709698" type="Touch">
+                    <param id="0" name="Object">J6TxtLetra_A</param>
+                </condition>
+                <condition id="-9" name="Is visible" sid="388234737717252" type="J6Fundo" />
+            </conditions>
+            <actions>
+                <action id="33" name="Stop all" sid="121398839714897" type="Audio" />
+                <action id="-4" name="Set layer visible" sid="929494047420798" type="System">
+                    <param id="0" name="Layer">2</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+                <action id="0" name="Play" sid="125919707847452" type="Audio">
+                    <param id="0" name="Audio file">Victory</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-15" name="Set visible" sid="914252270635332" type="J6Fundo">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="410880956758062" type="J6CertoA">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-4" name="Set layer visible" sid="599012223933855" type="System">
+                    <param id="0" name="Layer">&quot;Vitoria&quot;</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="695480724458956">
+            <conditions>
+                <condition id="3" name="On touched object" sid="876136567397950" type="Touch">
+                    <param id="0" name="Object">J6TxtLetra_B</param>
+                </condition>
+                <condition id="-9" name="Is visible" sid="295663873766907" type="J6Fundo" />
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="838377051322627" type="J6ErradoB">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="0" name="Play" sid="247153161801611" type="Audio">
+                    <param id="0" name="Audio file">fall</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-15" name="Set visible" sid="429925087838572" type="J6Fundo">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-16" name="Wait" sid="231951381706502" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="565952754329059" type="J6Fundo">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="952995844953621" type="J6ErradoB">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="470672456305508">
+            <conditions>
+                <condition id="3" name="On touched object" sid="384194572690993" type="Touch">
+                    <param id="0" name="Object">J6Text_Letra_C</param>
+                </condition>
+                <condition id="-9" name="Is visible" sid="218450525647565" type="J6Fundo" />
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="128054276102009" type="J6ErradoC">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="0" name="Play" sid="278633387406588" type="Audio">
+                    <param id="0" name="Audio file">fall</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-15" name="Set visible" sid="540788330389772" type="J6Fundo">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-16" name="Wait" sid="463311181705709" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="652366850072656" type="J6Fundo">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="905673564095974" type="J6ErradoC">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="832207453041962">
+            <conditions>
+                <condition id="3" name="On touched object" sid="416148443284473" type="Touch">
+                    <param id="0" name="Object">GlobalRestart</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Restart layout" sid="282385844965036" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="482552025336754">
+            <conditions>
+                <condition id="3" name="On touched object" sid="321254575757122" type="Touch">
+                    <param id="0" name="Object">GlobalMenu</param>
+                </condition>
+                <condition id="-9" name="Layer is visible" sid="920067490713873" type="System">
+                    <param id="0" name="Layer">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="675764997797900" type="System">
+                    <param id="0" name="Layout">Menu</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Menu</name>
+    <events>
+        <include>Variaveis</include>
+        <event-block sid="905319826367971">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="900030544630443" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Request URL" sid="432350340229740" type="AJAX">
+                    <param id="0" name="Tag">&quot;Login&quot;</param>
+                    <param id="1" name="URL">&quot;https://mais-que-especial.herokuapp.com/especial/listaGamesPorUsuario/ramon&quot;</param>
+                </action>
+                <action disabled="1" id="0" name="Call function" sid="570374805817146" type="Function">
+                    <param id="0" name="Name">&quot;LoadingCards&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="-21" name="Reset global variables" sid="424005648438040" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="164859257017405">
+            <conditions>
+                <condition id="0" name="On function" sid="505383489185492" type="Function">
+                    <param id="0" name="Name">&quot;createCard&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="645183685776753" type="System">
+                    <param id="0" name="Object to create">J</param>
+                    <param id="1" name="Layer">&quot;Cards&quot;</param>
+                    <param id="2" name="X">CardPositionX</param>
+                    <param id="3" name="Y">CardPositionY</param>
+                </action>
+                <action id="-3" name="Create object" sid="710849414086290" type="System">
+                    <param id="0" name="Object to create">txtTituloCards</param>
+                    <param id="1" name="Layer">&quot;Cards&quot;</param>
+                    <param id="2" name="X">CardPositionX</param>
+                    <param id="3" name="Y">CardPositionY-90</param>
+                </action>
+                <action id="0" name="Set text" sid="467659620298185" type="txtTituloCards">
+                    <param id="0" name="Text">Function.Param(1)</param>
+                </action>
+                <action id="5" name="Set frame" sid="291302037978694" type="J">
+                    <param id="0" name="Frame number">Function.Param(0)</param>
+                </action>
+                <action id="-10" name="Add to" sid="666152090722927" type="System">
+                    <param id="0" name="Variable">CardPositionX</param>
+                    <param id="1" name="Value">CardNextX</param>
+                </action>
+                <action id="-10" name="Add to" sid="913880052573852" type="System">
+                    <param id="0" name="Variable">line1</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="487884176627510">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="489005541756136" type="System">
+                            <param id="0" name="Variable">line1</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-11" name="Subtract from" sid="727867562956262" type="System">
+                            <param id="0" name="Variable">CardPositionX</param>
+                            <param id="1" name="Value">CardNextX</param>
+                        </action>
+                        <action id="-11" name="Subtract from" sid="887097933950033" type="System">
+                            <param id="0" name="Variable">CardPositionX</param>
+                            <param id="1" name="Value">CardNextX</param>
+                        </action>
+                        <action id="-11" name="Subtract from" sid="860268473863157" type="System">
+                            <param id="0" name="Variable">CardPositionX</param>
+                            <param id="1" name="Value">CardNextX</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="342385803979285" type="System">
+                            <param id="0" name="Variable">CardPositionY</param>
+                            <param id="1" name="Value">CardNextY</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="753477039929388" type="System">
+                            <param id="0" name="Variable">line1</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="413875008093710" type="System">
+                            <param id="0" name="Variable">Col</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="265073902037964">
+            <conditions>
+                <condition id="3" name="On touched object" sid="306846506344486" type="Touch">
+                    <param id="0" name="Object">J</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-25" name="Go to layout (by name)" sid="203881986983372" type="System">
+                    <param id="0" name="Layout">&quot;Jogo&quot;&amp;J.AnimationFrame</param>
+                </action>
+                <action id="0" name="Set text" sid="981843111410497" type="txtTitulo">
+                    <param id="0" name="Text">J.AnimationFrame</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="941286111188619">
+            <conditions>
+                <condition id="0" name="On function" sid="977971314721959" type="Function">
+                    <param id="0" name="Name">&quot;LoadingCards&quot;</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="578773043230377">
+                    <conditions>
+                        <condition id="3" name="For each element" sid="882291316979944" type="Games">
+                            <param id="0" name="Axes">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Call function" sid="212651624745063" type="Function">
+                            <param id="0" name="Name">&quot;createCard&quot;</param>
+                            <param id="1" name="Parameter {n}">Games.At(Games.CurX,1,0){###}Games.At(Games.CurX,0,0)</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="224933641177498">
+            <conditions>
+                <condition id="0" name="On function" sid="534136529956666" type="Function">
+                    <param id="0" name="Name">&quot;LoadingProfile&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="2" name="Post to URL" sid="734874529192503" type="AJAX">
+                    <param id="0" name="Tag">&quot;Profile&quot;</param>
+                    <param id="1" name="URL">&quot;http://&quot;</param>
+                    <param id="2" name="Data">&quot;&quot;</param>
+                    <param id="3" name="Method">&quot;POST&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="237987756297739">
+            <conditions>
+                <condition id="0" name="On completed" sid="732027052507792" type="AJAX">
+                    <param id="0" name="Tag">&quot;Profile&quot;</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+        <event-block sid="761629433832612">
+            <conditions>
+                <condition id="2" name="On progress" sid="292690150703405" type="AJAX">
+                    <param id="0" name="Tag">&quot;Login&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="179524908508374" type="System">
+                    <param id="0" name="Layer">&quot;Loading&quot;</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="622322192745556">
+            <conditions>
+                <condition id="0" name="On completed" sid="137636681710712" type="AJAX">
+                    <param id="0" name="Tag">&quot;Login&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action disabled="1" id="-4" name="Set layer visible" sid="291347384912539" type="System">
+                    <param id="0" name="Layer">&quot;Loading&quot;</param>
+                    <param id="1" name="Visibility">0</param>
+                </action>
+                <action disabled="1" id="-2" name="Go to layout" sid="167338245301068" type="System">
+                    <param id="0" name="Layout">Menu</param>
+                </action>
+                <action id="11" name="Load" sid="494753671578605" type="Games">
+                    <param id="0" name="JSON">AJAX.LastData</param>
+                </action>
+                <action id="0" name="Call function" sid="486328757474262" type="Function">
+                    <param id="0" name="Name">&quot;LoadingCards&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

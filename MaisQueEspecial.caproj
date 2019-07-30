@@ -1,0 +1,2780 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>MaisQueEspecial</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>r063l90tsei6</unique-id>
+    <saved-with-version>26500</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="AJAX" version="1">AJAX</plugin>
+        <plugin author="Scirra" id="Arr" version="1">Array</plugin>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Function" version="1">Function</plugin>
+        <plugin author="Scirra" id="Particles" version="1">Particles</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Spritefont2" version="1">Sprite font</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TextBox" version="1">Text box</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="DragnDrop" version="1">Drag &amp; Drop</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>1280</width>
+        <height>800</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <first-layout>Loading</first-layout>
+    <use-loader-layout>1</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Progress bar only</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">Chrome</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-folder name="Login">
+            <object-type name="BakGroundLoading" sid="782386520048204">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="911871421535369" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="AJAX" sid="205700299052029">
+                <plugin id="AJAX" />
+            </object-type>
+            <object-type name="loading" sid="441803290874879">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="4" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="775732109802863" speed="8">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Valdeko\Google Drive\MaisQueEspecialConstruct\loading.png">
+                            <collision-poly>
+                                <point x="0.142578" y="0.142578" />
+                                <point x="0.5" y="0.0078125" />
+                                <point x="0.841797" y="0.158203" />
+                                <point x="1" y="0.5" />
+                                <point x="0.869141" y="0.869141" />
+                                <point x="0.5" y="0.1875" />
+                                <point x="0.148438" y="0.851563" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Valdeko\Google Drive\MaisQueEspecialConstruct\loading2.png">
+                            <collision-poly>
+                                <point x="0.148438" y="0.148438" />
+                                <point x="0.5" y="0" />
+                                <point x="0.857422" y="0.142578" />
+                                <point x="0.992188" y="0.5" />
+                                <point x="0.841797" y="0.841797" />
+                                <point x="0.5" y="1" />
+                                <point x="0.130859" y="0.869141" />
+                                <point x="0.8125" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Valdeko\Google Drive\MaisQueEspecialConstruct\loading3.png">
+                            <collision-poly>
+                                <point x="0.130859" y="0.130859" />
+                                <point x="0.5" y="0.8125" />
+                                <point x="0.851563" y="0.148438" />
+                                <point x="1" y="0.5" />
+                                <point x="0.857422" y="0.857422" />
+                                <point x="0.5" y="0.992188" />
+                                <point x="0.158203" y="0.841797" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Valdeko\Google Drive\MaisQueEspecialConstruct\loading4.png">
+                            <collision-poly>
+                                <point x="0.158203" y="0.158203" />
+                                <point x="0.5" y="0" />
+                                <point x="0.869141" y="0.130859" />
+                                <point x="0.1875" y="0.5" />
+                                <point x="0.851563" y="0.851563" />
+                                <point x="0.5" y="1" />
+                                <point x="0.142578" y="0.857422" />
+                                <point x="0.0078125" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="long" sid="819444239633982">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="730790448634706" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Desenvolvimento\Android\Sprites_craftpix\GUI\craftpix-103151-island-game-gui\Island-game-gui\png\buttons\normal\Original Files\long.png">
+                            <collision-poly>
+                                <point x="0.0400155" y="0.147143" />
+                                <point x="0.5" y="0" />
+                                <point x="0.960373" y="0.145714" />
+                                <point x="1" y="0.5" />
+                                <point x="0.960373" y="0.854286" />
+                                <point x="0.5" y="1" />
+                                <point x="0.0400155" y="0.852857" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="QueEspecial" sid="554729785844752">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="840758205382394" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Desenvolvimento\Android\Sprites_craftpix\BACKGROUD\+ que especial.jpg" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="txtEntrar" sid="156152689138706">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="txtLogin" sid="970043244644522">
+                <plugin id="TextBox" />
+            </object-type>
+            <object-type name="txtSenha" sid="807491802250479">
+                <plugin id="TextBox" />
+            </object-type>
+        </object-folder>
+        <object-folder name="Menu">
+            <object-type global="1" name="Games" sid="212235053150957">
+                <plugin id="Arr" />
+            </object-type>
+            <object-type name="J" sid="159544447745286">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="12" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="311290705058869" speed="0">
+                        <frame duration="1" hotspotX="0.500486" hotspotY="0.5">
+                            <collision-poly>
+                                <point x="0.0223518" y="0.0400697" />
+                                <point x="0.499514" y="0" />
+                                <point x="0.97862" y="0.0383275" />
+                                <point x="0.997085" y="0.5" />
+                                <point x="0.976676" y="0.958188" />
+                                <point x="0.499514" y="1" />
+                                <point x="0.0233236" y="0.958188" />
+                                <point x="0.00388727" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.500486" hotspotY="0.5" original-source="C:\Users\Valdeko\Google Drive\MaisQueEspecialConstruct\Jogos\J1.PNG">
+                            <collision-poly>
+                                <point x="0.0223518" y="0.0400697" />
+                                <point x="0.499514" y="0" />
+                                <point x="0.97862" y="0.0383275" />
+                                <point x="0.997085" y="0.5" />
+                                <point x="0.976676" y="0.958188" />
+                                <point x="0.499514" y="1" />
+                                <point x="0.0233236" y="0.958188" />
+                                <point x="0.00388727" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.500486" hotspotY="0.5" original-source="C:\Users\Valdeko\Google Drive\MaisQueEspecialConstruct\Jogos\J2.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="1" y="0" />
+                                <point x="0.999028" y="0.998258" />
+                                <point x="0.000971817" y="0.998258" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.500486" hotspotY="0.5" original-source="C:\Users\Valdeko\Google Drive\MaisQueEspecialConstruct\Jogos\J3.png" />
+                        <frame duration="1" hotspotX="0.500486" hotspotY="0.5" original-source="C:\Users\Valdeko\Google Drive\MaisQueEspecialConstruct\Jogos\J4.png" />
+                        <frame duration="1" hotspotX="0.500486" hotspotY="0.5" original-source="C:\Users\Valdeko\Google Drive\MaisQueEspecialConstruct\Jogos\J3.png">
+                            <collision-poly>
+                                <point x="0.000971817" y="0.00174216" />
+                                <point x="0.999028" y="0.00174216" />
+                                <point x="1" y="1" />
+                                <point x="0.000971817" y="0.998258" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.500486" hotspotY="0.5" original-source="C:\Users\Valdeko\Google Drive\MaisQueEspecialConstruct\Jogos\J6.png" />
+                        <frame duration="1" hotspotX="0.500486" hotspotY="0.5" original-source="C:\Users\Valdeko\Google Drive\MaisQueEspecialConstruct\Jogos\J7.png" />
+                        <frame duration="1" hotspotX="0.500486" hotspotY="0.5" original-source="C:\Users\Valdeko\Google Drive\MaisQueEspecialConstruct\Jogos\J4.png">
+                            <collision-poly>
+                                <point x="0.0223518" y="0.0400697" />
+                                <point x="0.499514" y="0" />
+                                <point x="0.97862" y="0.0383275" />
+                                <point x="0.997085" y="0.5" />
+                                <point x="0.976676" y="0.958188" />
+                                <point x="0.499514" y="1" />
+                                <point x="0.0233236" y="0.958188" />
+                                <point x="0.00388727" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.500486" hotspotY="0.5" original-source="C:\Users\Valdeko\Google Drive\MaisQueEspecialConstruct\Jogos\J4eee.png" />
+                        <frame duration="1" hotspotX="0.500486" hotspotY="0.5" original-source="C:\Users\Valdeko\Google Drive\MaisQueEspecialConstruct\Jogos\J5 (2).png" />
+                        <frame duration="1" hotspotX="0.500486" hotspotY="0.5" original-source="C:\Users\Valdeko\Google Drive\MaisQueEspecialConstruct\Jogos\J5.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="l1_background" sid="332302977091279">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="757433899385466" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Desenvolvimento\Android\Sprites_craftpix\BACKGROUD\craftpix-000987-cartoon-city-2d-backgrounds\_PNG\02\layers\l1_background.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="l2_mountains" sid="180144759384173">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="595531047233241" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Desenvolvimento\Android\Sprites_craftpix\BACKGROUD\craftpix-000987-cartoon-city-2d-backgrounds\_PNG\02\layers\l2_mountains.png">
+                            <collision-poly>
+                                <point x="0.196875" y="0.35" />
+                                <point x="0.5" y="0.45" />
+                                <point x="0.758333" y="0.42963" />
+                                <point x="1" y="0.5" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="l3_clouds" sid="521506993676176">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="325300214916105" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Desenvolvimento\Android\Sprites_craftpix\BACKGROUD\craftpix-000987-cartoon-city-2d-backgrounds\_PNG\02\layers\l3_clouds.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="l4_bushes" sid="778558429640191">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="210378663929524" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Desenvolvimento\Android\Sprites_craftpix\BACKGROUD\craftpix-000987-cartoon-city-2d-backgrounds\_PNG\02\layers\l4_bushes.png">
+                            <collision-poly>
+                                <point x="0.285937" y="0.508333" />
+                                <point x="0.5" y="0.438889" />
+                                <point x="0.713021" y="0.510185" />
+                                <point x="0.584375" y="0.5" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                                <point x="0.247396" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="txtTitulo" sid="220127869916906">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="txtTituloCards" sid="411056593182840">
+                <plugin id="Text" />
+            </object-type>
+        </object-folder>
+        <object-folder name="Jogo1">
+            <object-type name="J1QuadroOrigem" sid="815291519790562">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="994191064426210" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Documents\sprite\fundo\IMagens CUstomizadas\Borda5.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="0.5" y="0.0133333" />
+                                <point x="0.776471" y="0.126667" />
+                                <point x="0.982353" y="0.5" />
+                                <point x="0.788235" y="0.88" />
+                                <point x="0.5" y="0.99" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J1FogueteColorido" sid="686721180672095">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="DragDrop" sid="389638443758371">
+                        <behavior id="DragnDrop" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="852309608145029" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Desktop\jogo espaço\startup.png">
+                            <collision-poly>
+                                <point x="0.267578" y="0.267578" />
+                                <point x="0.5" y="0.195313" />
+                                <point x="0.994141" y="0.00585938" />
+                                <point x="0.802734" y="0.5" />
+                                <point x="0.732422" y="0.732422" />
+                                <point x="0.5" y="0.6875" />
+                                <point x="0.0117188" y="0.988281" />
+                                <point x="0.310547" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J1FogueteCinza" sid="797766725667272">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="531664846728846" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Desktop\jogo espaço\startup.png">
+                            <collision-poly>
+                                <point x="0.267578" y="0.267578" />
+                                <point x="0.5" y="0.195313" />
+                                <point x="0.994141" y="0.00585938" />
+                                <point x="0.802734" y="0.5" />
+                                <point x="0.732422" y="0.732422" />
+                                <point x="0.5" y="0.6875" />
+                                <point x="0.0117188" y="0.988281" />
+                                <point x="0.310547" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Acerto" pingpong="0" repeatcount="1" repeatto="0" sid="372534706998366" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Desktop\jogo espaço\startup.png">
+                            <collision-poly>
+                                <point x="0.267578" y="0.267578" />
+                                <point x="0.5" y="0.195313" />
+                                <point x="0.994141" y="0.00585938" />
+                                <point x="0.802734" y="0.5" />
+                                <point x="0.732422" y="0.732422" />
+                                <point x="0.5" y="0.6875" />
+                                <point x="0.0117188" y="0.988281" />
+                                <point x="0.310547" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J1FundoAmarelo" sid="746525458250106">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="372511701198007" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J1FundoAzul" sid="797258784089951">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="735321854794426" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J1PlanetaCinza" sid="991013181926991">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="365861792842768" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Desktop\jogo espaço\planet-earth.png">
+                            <collision-poly>
+                                <point x="0.146484" y="0.146484" />
+                                <point x="0.5" y="0" />
+                                <point x="0.853516" y="0.146484" />
+                                <point x="1" y="0.5" />
+                                <point x="0.853516" y="0.853516" />
+                                <point x="0.5" y="1" />
+                                <point x="0.146484" y="0.853516" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Acerto" pingpong="0" repeatcount="1" repeatto="0" sid="984215164947312" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Desktop\jogo espaço\planet-earth.png">
+                            <collision-poly>
+                                <point x="0.146484" y="0.146484" />
+                                <point x="0.5" y="0" />
+                                <point x="0.853516" y="0.146484" />
+                                <point x="1" y="0.5" />
+                                <point x="0.853516" y="0.853516" />
+                                <point x="0.5" y="1" />
+                                <point x="0.146484" y="0.853516" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J1FundoEspaco" sid="106003985740142">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="767583832158985" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\craftpix-899111-pixel-art-space-2d-game-backgrounds\original_size\PNG\Space2\Bright\Space2.png">
+                            <collision-poly>
+                                <point x="0.101042" y="0.17963" />
+                                <point x="0.94375" y="0.5" />
+                                <point x="0.905208" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J1PlanetaColorido" sid="202637599500563">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="DragDrop" sid="429060673484500">
+                        <behavior id="DragnDrop" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="501076569255344" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Desktop\jogo espaço\planet-earth.png">
+                            <collision-poly>
+                                <point x="0.146484" y="0.146484" />
+                                <point x="0.5" y="0" />
+                                <point x="0.853516" y="0.146484" />
+                                <point x="1" y="0.5" />
+                                <point x="0.853516" y="0.853516" />
+                                <point x="0.5" y="1" />
+                                <point x="0.146484" y="0.853516" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J1LuaAmarela" sid="257048806285672">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="DragDrop" sid="602504152941277">
+                        <behavior id="DragnDrop" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="817465041358990" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Desktop\jogo espaço\moon-phase-outline.png">
+                            <collision-poly>
+                                <point x="0.15625" y="0.15625" />
+                                <point x="0.5" y="0" />
+                                <point x="0.474609" y="0.525391" />
+                                <point x="0.458984" y="0.5" />
+                                <point x="0.863281" y="0.863281" />
+                                <point x="0.5" y="1" />
+                                <point x="0.158203" y="0.841797" />
+                                <point x="0.0214844" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J1EstrelaAmarela" sid="168716084365929">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="DragDrop" sid="107070547557342">
+                        <behavior id="DragnDrop" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="760082969882509" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Desktop\jogo espaço\star.png">
+                            <collision-poly>
+                                <point x="0.298828" y="0.298828" />
+                                <point x="0.5" y="0.0214844" />
+                                <point x="0.701172" y="0.298828" />
+                                <point x="0.931641" y="0.5" />
+                                <point x="0.822266" y="0.822266" />
+                                <point x="0.5" y="0.853516" />
+                                <point x="0.177734" y="0.822266" />
+                                <point x="0.0683594" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J1Xicara" sid="965409067152330">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="DragDrop" sid="196549786675405">
+                        <behavior id="DragnDrop" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="272397485850799" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Desktop\coffee-cup.png">
+                            <collision-poly>
+                                <point x="0.396484" y="0.396484" />
+                                <point x="0.5" y="0.0625" />
+                                <point x="0.603516" y="0.396484" />
+                                <point x="0.96875" y="0.5" />
+                                <point x="0.900391" y="0.900391" />
+                                <point x="0.5" y="0.9375" />
+                                <point x="0.0820313" y="0.917969" />
+                                <point x="0.125" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J1Ferramenta" sid="603954624546186">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="DragDrop" sid="809043168789992">
+                        <behavior id="DragnDrop" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="859574511252788" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Desktop\wrench.png">
+                            <collision-poly>
+                                <point x="0.212891" y="0.212891" />
+                                <point x="0.5" y="0.00195313" />
+                                <point x="0.791016" y="0.208984" />
+                                <point x="0.693359" y="0.5" />
+                                <point x="0.71875" y="0.71875" />
+                                <point x="0.5" y="0.998047" />
+                                <point x="0.201172" y="0.798828" />
+                                <point x="0.234375" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J1Cadeira" sid="309646501499562">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="DragDrop" sid="707826136296490">
+                        <behavior id="DragnDrop" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="113751266162596" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Desktop\chair.png">
+                            <collision-poly>
+                                <point x="0.224609" y="0.224609" />
+                                <point x="0.5" y="0" />
+                                <point x="0.775391" y="0.224609" />
+                                <point x="0.777344" y="0.5" />
+                                <point x="0.742188" y="0.742188" />
+                                <point x="0.5" y="0.884766" />
+                                <point x="0.257813" y="0.742188" />
+                                <point x="0.222656" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J1LuaCinza" sid="742737078146434">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="467190295058202" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Desktop\jogo espaço\moon-phase-outline.png">
+                            <collision-poly>
+                                <point x="0.15625" y="0.15625" />
+                                <point x="0.5" y="0" />
+                                <point x="0.474609" y="0.525391" />
+                                <point x="0.458984" y="0.5" />
+                                <point x="0.863281" y="0.863281" />
+                                <point x="0.5" y="1" />
+                                <point x="0.158203" y="0.841797" />
+                                <point x="0.0214844" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Acerto" pingpong="0" repeatcount="1" repeatto="0" sid="852806748852833" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Desktop\jogo espaço\moon-phase-outline.png">
+                            <collision-poly>
+                                <point x="0.15625" y="0.15625" />
+                                <point x="0.5" y="0" />
+                                <point x="0.474609" y="0.525391" />
+                                <point x="0.458984" y="0.5" />
+                                <point x="0.863281" y="0.863281" />
+                                <point x="0.5" y="1" />
+                                <point x="0.158203" y="0.841797" />
+                                <point x="0.0214844" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J1EstrelaCinza" sid="207709490884563">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="500903346410250" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Desktop\jogo espaço\star.png">
+                            <collision-poly>
+                                <point x="0.298828" y="0.298828" />
+                                <point x="0.5" y="0.0214844" />
+                                <point x="0.701172" y="0.298828" />
+                                <point x="0.931641" y="0.5" />
+                                <point x="0.822266" y="0.822266" />
+                                <point x="0.5" y="0.853516" />
+                                <point x="0.177734" y="0.822266" />
+                                <point x="0.0683594" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Acerto" pingpong="0" repeatcount="1" repeatto="0" sid="788864273350250" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Desktop\jogo espaço\star.png">
+                            <collision-poly>
+                                <point x="0.298828" y="0.298828" />
+                                <point x="0.5" y="0.0214844" />
+                                <point x="0.701172" y="0.298828" />
+                                <point x="0.931641" y="0.5" />
+                                <point x="0.822266" y="0.822266" />
+                                <point x="0.5" y="0.853516" />
+                                <point x="0.177734" y="0.822266" />
+                                <point x="0.0683594" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J1BotaoVoltar" sid="762202480904700">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="600023960851885" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Downloads\craftpix-889156-free-racing-game-kit\PNG\Buttons\Replay_BTN.png">
+                            <collision-poly>
+                                <point x="0.06" y="0.0588235" />
+                                <point x="0.5" y="0" />
+                                <point x="0.94" y="0.0588235" />
+                                <point x="1" y="0.5" />
+                                <point x="0.935" y="0.936275" />
+                                <point x="0.5" y="1" />
+                                <point x="0.065" y="0.936275" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="Global">
+            <object-type name="GBMenino" sid="157557502625736">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="5" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="275584494946891" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.500574" original-source="C:\Users\Arthu\Downloads\craftpix-955440-2d-game-chibi-boy-free-character-sprite-sheet\png\summer\jump\1_summer_Jump_003.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.500574" original-source="C:\Users\Arthu\Downloads\craftpix-955440-2d-game-chibi-boy-free-character-sprite-sheet\png\summer\jump\1_summer_Jump_004.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.500574" original-source="C:\Users\Arthu\Downloads\craftpix-955440-2d-game-chibi-boy-free-character-sprite-sheet\png\summer\jump\1_summer_Jump_005.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.500574" original-source="C:\Users\Arthu\Downloads\craftpix-955440-2d-game-chibi-boy-free-character-sprite-sheet\png\summer\jump\1_summer_Jump_006.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.500574" original-source="C:\Users\Arthu\Downloads\craftpix-955440-2d-game-chibi-boy-free-character-sprite-sheet\png\summer\jump\1_summer_Jump_007.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="GBSfParabens" sid="115530724675221">
+                <plugin id="Spritefont2" />
+                <texture original-source="C:\Users\Arthu\Desktop\arthur o black\SpriteFont_pingwing_Medium_(72)_[1,1,1,1]_70x87.png" />
+            </object-type>
+            <object-type name="J1Particula" sid="289880410799705">
+                <plugin id="Particles" />
+                <texture />
+            </object-type>
+            <object-type name="Audio" sid="236496617832755">
+                <plugin id="Audio" />
+            </object-type>
+            <object-type name="Function" sid="118708677002807">
+                <plugin id="Function" />
+            </object-type>
+            <object-type global="1" name="Profile" sid="553807592073080">
+                <plugin id="Arr" />
+            </object-type>
+            <object-type name="Text" sid="580631933895017">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Text2" sid="892675419574771">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Touch" sid="300176757359010">
+                <plugin id="Touch" />
+            </object-type>
+            <object-type name="GlobalProximo" sid="597678999078738">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="897088107282107" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Downloads\craftpix-889156-free-racing-game-kit\PNG\Buttons\Play_BTN.png">
+                            <collision-poly>
+                                <point x="0.06" y="0.0588235" />
+                                <point x="0.5" y="0" />
+                                <point x="0.94" y="0.0588235" />
+                                <point x="1" y="0.5" />
+                                <point x="0.935" y="0.936275" />
+                                <point x="0.5" y="1" />
+                                <point x="0.065" y="0.936275" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="GlobalMenu" sid="681184942793736">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="192431204717327" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Desenvolvimento\Android\Sprites_craftpix\GUI\craftpix-667109-racing-gui\PNG\Buttons\Main_Menu_BTN.png">
+                            <collision-poly>
+                                <point x="0.06" y="0.0588235" />
+                                <point x="0.5" y="0" />
+                                <point x="0.94" y="0.0588235" />
+                                <point x="1" y="0.5" />
+                                <point x="0.935" y="0.936275" />
+                                <point x="0.5" y="1" />
+                                <point x="0.065" y="0.936275" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="GlobalRestart" sid="231402697632787">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="804888205460329" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Downloads\craftpix-889156-free-racing-game-kit\PNG\Buttons\Replay_BTN.png">
+                            <collision-poly>
+                                <point x="0.06" y="0.0588235" />
+                                <point x="0.5" y="0" />
+                                <point x="0.94" y="0.0588235" />
+                                <point x="1" y="0.5" />
+                                <point x="0.935" y="0.936275" />
+                                <point x="0.5" y="1" />
+                                <point x="0.065" y="0.936275" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="BArraLoading" sid="479510732602326">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="651387549956469" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Valdeko\Google Drive\Projetos_contruct2\ProjetoBase\GUI\PNG\load_bar\3.png">
+                            <collision-poly>
+                                <point x="0.00784753" y="0.122807" />
+                                <point x="0.5" y="0" />
+                                <point x="0.987668" y="0.192982" />
+                                <point x="0.983184" y="0.736842" />
+                                <point x="0.5" y="0.842105" />
+                                <point x="0.0134529" y="0.789474" />
+                                <point x="0" y="0.491228" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="bg4" sid="681260252725984">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="965975296724495" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.506173" original-source="C:\Users\Valdeko\Google Drive\Projetos_contruct2\ProjetoBase\GUI\PNG\load_bar\bg.png">
+                            <collision-poly>
+                                <point x="0.00637394" y="0.111111" />
+                                <point x="0.5" y="0" />
+                                <point x="0.993626" y="0.111111" />
+                                <point x="0.994334" y="0.901235" />
+                                <point x="0.5" y="1" />
+                                <point x="0.00566572" y="0.901235" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="IncaGames" sid="487830776197325">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="326736862739341" speed="5">
+                        <frame duration="1" hotspotX="0.500511" hotspotY="0.500754" original-source="C:\Users\Valdeko\Google Drive\MaisQueEspecialConstruct\IncaGames.jpg" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="LoadingBackGround" sid="814713752223604">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="289008185784337" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="LoadingFont" sid="941834963553145">
+                <plugin id="Spritefont2" />
+                <texture original-source="C:\Users\Valdeko\Google Drive\Projetos_contruct2\Musica_pega_moedas\fonte_30_29.png" />
+            </object-type>
+            <object-type name="J4QuadroAzul" sid="839109393898164">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="981520056555606" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Documents\sprite\fundo\IMagens CUstomizadas\Borda5.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="0.5" y="0.0133333" />
+                                <point x="0.776471" y="0.126667" />
+                                <point x="0.982353" y="0.5" />
+                                <point x="0.788235" y="0.88" />
+                                <point x="0.5" y="0.99" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="Jogo2">
+            <object-type name="J2BotaoVoltar" sid="663277712553212">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="792415341883923" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Downloads\craftpix-889156-free-racing-game-kit\PNG\Buttons\Replay_BTN.png">
+                            <collision-poly>
+                                <point x="0.06" y="0.0588235" />
+                                <point x="0.5" y="0" />
+                                <point x="0.94" y="0.0588235" />
+                                <point x="1" y="0.5" />
+                                <point x="0.935" y="0.936275" />
+                                <point x="0.5" y="1" />
+                                <point x="0.065" y="0.936275" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J2CadeiraCinza" sid="973298362723483">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="683853294056784" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Desktop\chair (1).png">
+                            <collision-poly>
+                                <point x="0.224609" y="0.224609" />
+                                <point x="0.5" y="0" />
+                                <point x="0.775391" y="0.224609" />
+                                <point x="0.777344" y="0.5" />
+                                <point x="0.742188" y="0.742188" />
+                                <point x="0.5" y="0.884766" />
+                                <point x="0.257813" y="0.742188" />
+                                <point x="0.222656" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Acerto" pingpong="0" repeatcount="1" repeatto="0" sid="586928508144787" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Desktop\chair (1).png">
+                            <collision-poly>
+                                <point x="0.224609" y="0.224609" />
+                                <point x="0.5" y="0" />
+                                <point x="0.775391" y="0.224609" />
+                                <point x="0.777344" y="0.5" />
+                                <point x="0.742188" y="0.742188" />
+                                <point x="0.5" y="0.884766" />
+                                <point x="0.257813" y="0.742188" />
+                                <point x="0.222656" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J2CadeiraColorida" sid="401098736484579">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="DragDrop" sid="714110558257539">
+                        <behavior id="DragnDrop" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="176015181513286" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Desktop\chair.png">
+                            <collision-poly>
+                                <point x="0.224609" y="0.224609" />
+                                <point x="0.5" y="0" />
+                                <point x="0.775391" y="0.224609" />
+                                <point x="0.777344" y="0.5" />
+                                <point x="0.742188" y="0.742188" />
+                                <point x="0.5" y="0.884766" />
+                                <point x="0.257813" y="0.742188" />
+                                <point x="0.222656" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J2XicaraColorida" sid="998148018833262">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="DragDrop" sid="247986789712671">
+                        <behavior id="DragnDrop" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="627018766743584" speed="0">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Desktop\coffee-cup.png">
+                            <collision-poly>
+                                <point x="0.396484" y="0.396484" />
+                                <point x="0.5" y="0.0625" />
+                                <point x="0.603516" y="0.396484" />
+                                <point x="0.96875" y="0.5" />
+                                <point x="0.900391" y="0.900391" />
+                                <point x="0.5" y="0.9375" />
+                                <point x="0.0820313" y="0.917969" />
+                                <point x="0.125" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J2ChaleiraCinza" sid="624829976480731">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Destino" pingpong="0" repeatcount="1" repeatto="0" sid="767742314110293" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Desktop\teapot.png">
+                            <collision-poly>
+                                <point x="0.257813" y="0.257813" />
+                                <point x="0.5" y="0" />
+                                <point x="0.851563" y="0.148438" />
+                                <point x="0.876953" y="0.5" />
+                                <point x="0.839844" y="0.839844" />
+                                <point x="0.5" y="1" />
+                                <point x="0.257813" y="0.742188" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Acerto" pingpong="0" repeatcount="1" repeatto="0" sid="938933596339037" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Desktop\teapot.png">
+                            <collision-poly>
+                                <point x="0.257813" y="0.257813" />
+                                <point x="0.5" y="0" />
+                                <point x="0.851563" y="0.148438" />
+                                <point x="0.876953" y="0.5" />
+                                <point x="0.839844" y="0.839844" />
+                                <point x="0.5" y="1" />
+                                <point x="0.257813" y="0.742188" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J2ChaleiraColorida" sid="905526202103260">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="DragDrop" sid="283920482439827">
+                        <behavior id="DragnDrop" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="142642870736820" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Desktop\teapot.png">
+                            <collision-poly>
+                                <point x="0.257813" y="0.257813" />
+                                <point x="0.5" y="0" />
+                                <point x="0.851563" y="0.148438" />
+                                <point x="0.876953" y="0.5" />
+                                <point x="0.839844" y="0.839844" />
+                                <point x="0.5" y="1" />
+                                <point x="0.257813" y="0.742188" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J2Ferramenta" sid="509519128433293">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="DragDrop" sid="791814403356937">
+                        <behavior id="DragnDrop" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="579422291975081" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Desktop\wrench.png">
+                            <collision-poly>
+                                <point x="0.386719" y="0.386719" />
+                                <point x="0.5" y="0.0585938" />
+                                <point x="0.654297" y="0.345703" />
+                                <point x="0.939453" y="0.5" />
+                                <point x="0.613281" y="0.613281" />
+                                <point x="0.5" y="0.726563" />
+                                <point x="0.046875" y="0.953125" />
+                                <point x="0.271484" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J2FundoAmarelo" sid="977402946926777">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="271027712631138" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J2FundoPrincipal" sid="727317167552917">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="165057961222450" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Desktop\Kitchen Background\Kitchen Background\kitchen Background Lite.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J2GarfosCinza" sid="140316104589330">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Destino" pingpong="0" repeatcount="1" repeatto="0" sid="693485758252717" speed="0">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Desktop\kitchen-tools.png">
+                            <collision-poly>
+                                <point x="0.0839844" y="0.0839844" />
+                                <point x="0.5" y="0.0078125" />
+                                <point x="0.919922" y="0.0800781" />
+                                <point x="0.875" y="0.5" />
+                                <point x="0.875" y="0.875" />
+                                <point x="0.5" y="0.986328" />
+                                <point x="0.0625" y="0.9375" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Acerto" pingpong="0" repeatcount="1" repeatto="0" sid="342415808812631" speed="0">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Desktop\kitchen-tools.png">
+                            <collision-poly>
+                                <point x="0.0839844" y="0.0839844" />
+                                <point x="0.5" y="0.0078125" />
+                                <point x="0.919922" y="0.0800781" />
+                                <point x="0.875" y="0.5" />
+                                <point x="0.875" y="0.875" />
+                                <point x="0.5" y="0.986328" />
+                                <point x="0.0625" y="0.9375" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J2Volante" sid="529024856651662">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="DragDrop" sid="970596249504836">
+                        <behavior id="DragnDrop" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="345005479038912" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Desktop\icon.png">
+                            <collision-poly>
+                                <point x="0.146484" y="0.146484" />
+                                <point x="0.5" y="0" />
+                                <point x="0.853516" y="0.146484" />
+                                <point x="1" y="0.5" />
+                                <point x="0.853516" y="0.853516" />
+                                <point x="0.5" y="1" />
+                                <point x="0.146484" y="0.853516" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J2XicaraCinza" sid="107074472735989">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Destino" pingpong="0" repeatcount="1" repeatto="0" sid="738478325771029" speed="0">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Desktop\coffee-cup.png">
+                            <collision-poly>
+                                <point x="0.396484" y="0.396484" />
+                                <point x="0.5" y="0.0625" />
+                                <point x="0.603516" y="0.396484" />
+                                <point x="0.96875" y="0.5" />
+                                <point x="0.900391" y="0.900391" />
+                                <point x="0.5" y="0.9375" />
+                                <point x="0.0820313" y="0.917969" />
+                                <point x="0.125" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Acerto" pingpong="0" repeatcount="1" repeatto="0" sid="340429419126357" speed="0">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Desktop\coffee-cup.png">
+                            <collision-poly>
+                                <point x="0.396484" y="0.396484" />
+                                <point x="0.5" y="0.0625" />
+                                <point x="0.603516" y="0.396484" />
+                                <point x="0.96875" y="0.5" />
+                                <point x="0.900391" y="0.900391" />
+                                <point x="0.5" y="0.9375" />
+                                <point x="0.0820313" y="0.917969" />
+                                <point x="0.125" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J2GarfosColoridos" sid="394635665244957">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="DragDrop" sid="975026469848464">
+                        <behavior id="DragnDrop" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="220640706834307" speed="0">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Desktop\kitchen-tools.png">
+                            <collision-poly>
+                                <point x="0.0839844" y="0.0839844" />
+                                <point x="0.5" y="0.0078125" />
+                                <point x="0.919922" y="0.0800781" />
+                                <point x="0.875" y="0.5" />
+                                <point x="0.875" y="0.875" />
+                                <point x="0.5" y="0.986328" />
+                                <point x="0.0625" y="0.9375" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J2Menino" sid="865945543164170">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="5" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="453182047506921" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.500574" original-source="C:\Users\Arthu\Downloads\craftpix-955440-2d-game-chibi-boy-free-character-sprite-sheet\png\summer\jump\1_summer_Jump_003.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.500574" original-source="C:\Users\Arthu\Downloads\craftpix-955440-2d-game-chibi-boy-free-character-sprite-sheet\png\summer\jump\1_summer_Jump_004.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.500574" original-source="C:\Users\Arthu\Downloads\craftpix-955440-2d-game-chibi-boy-free-character-sprite-sheet\png\summer\jump\1_summer_Jump_005.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.500574" original-source="C:\Users\Arthu\Downloads\craftpix-955440-2d-game-chibi-boy-free-character-sprite-sheet\png\summer\jump\1_summer_Jump_006.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.500574" original-source="C:\Users\Arthu\Downloads\craftpix-955440-2d-game-chibi-boy-free-character-sprite-sheet\png\summer\jump\1_summer_Jump_007.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J2Particula" sid="331872020129319">
+                <plugin id="Particles" />
+                <texture />
+            </object-type>
+            <object-type name="J2PneuColorido" sid="254138695450136">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="DragDrop" sid="103326392260270">
+                        <behavior id="DragnDrop" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="340770190393795" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Desktop\car-wheel.png">
+                            <collision-poly>
+                                <point x="0.146484" y="0.146484" />
+                                <point x="0.5" y="0" />
+                                <point x="0.853516" y="0.146484" />
+                                <point x="1" y="0.5" />
+                                <point x="0.853516" y="0.853516" />
+                                <point x="0.5" y="1" />
+                                <point x="0.146484" y="0.853516" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J2QuadroAzul" sid="551227307936873">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="735532930477327" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Documents\sprite\fundo\IMagens CUstomizadas\Borda5.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="0.5" y="0.0133333" />
+                                <point x="0.776471" y="0.126667" />
+                                <point x="0.982353" y="0.5" />
+                                <point x="0.788235" y="0.88" />
+                                <point x="0.5" y="0.99" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J2SPfParabens" sid="657337496553245">
+                <plugin id="Spritefont2" />
+                <texture original-source="C:\Users\Arthu\Desktop\arthur o black\SpriteFont_pingwing_Medium_(72)_[1,1,1,1]_70x87.png" />
+            </object-type>
+            <object-type name="J2VoltarMenu" sid="756565506404794">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="991684968533345" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.502439" original-source="C:\Users\Arthu\Downloads\craftpix-889156-free-racing-game-kit\PNG\Buttons\Exit_BTN.png">
+                            <collision-poly>
+                                <point x="0.06" y="0.0588235" />
+                                <point x="0.5" y="0" />
+                                <point x="0.94" y="0.0588235" />
+                                <point x="1" y="0.5" />
+                                <point x="0.935" y="0.936275" />
+                                <point x="0.5" y="1" />
+                                <point x="0.065" y="0.936275" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="Jogo3">
+            <object-type name="J3BtnRestart" sid="380198626183460">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="228720919665438" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Downloads\craftpix-889156-free-racing-game-kit\PNG\Buttons\Replay_BTN.png">
+                            <collision-poly>
+                                <point x="0.06" y="0.0588235" />
+                                <point x="0.5" y="0" />
+                                <point x="0.94" y="0.0588235" />
+                                <point x="1" y="0.5" />
+                                <point x="0.935" y="0.936275" />
+                                <point x="0.5" y="1" />
+                                <point x="0.065" y="0.936275" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J3CirculoCinza" sid="525623305848691">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="719544420762405" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Downloads\circular-shape-silhouette.png">
+                            <collision-poly>
+                                <point x="0.146484" y="0.146484" />
+                                <point x="0.5" y="0" />
+                                <point x="0.853516" y="0.146484" />
+                                <point x="1" y="0.5" />
+                                <point x="0.853516" y="0.853516" />
+                                <point x="0.5" y="1" />
+                                <point x="0.146484" y="0.853516" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Acerto" pingpong="0" repeatcount="1" repeatto="0" sid="647625826335763" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Downloads\circular-shape-silhouette.png">
+                            <collision-poly>
+                                <point x="0.146484" y="0.146484" />
+                                <point x="0.5" y="0" />
+                                <point x="0.853516" y="0.146484" />
+                                <point x="1" y="0.5" />
+                                <point x="0.853516" y="0.853516" />
+                                <point x="0.5" y="1" />
+                                <point x="0.146484" y="0.853516" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J3CirculoVerde" sid="775461772998178">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="DragDrop" sid="704286953215792">
+                        <behavior id="DragnDrop" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="667367053595745" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Downloads\circular-shape-silhouette.png">
+                            <collision-poly>
+                                <point x="0.5" y="0.00195313" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J3Fundo" sid="479167738135761">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="910855512915269" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Videos\Captures\fundo-de-explosao-de-sol-abstrato-roxo_1164-1695.jpg" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J3FundoAmarelo" sid="406551903402171">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="653348481682558" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J3Menino" sid="164972155204784">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="5" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="476712021192177" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.500574" original-source="C:\Users\Arthu\Downloads\craftpix-955440-2d-game-chibi-boy-free-character-sprite-sheet\png\summer\jump\1_summer_Jump_003.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.500574" original-source="C:\Users\Arthu\Downloads\craftpix-955440-2d-game-chibi-boy-free-character-sprite-sheet\png\summer\jump\1_summer_Jump_004.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.500574" original-source="C:\Users\Arthu\Downloads\craftpix-955440-2d-game-chibi-boy-free-character-sprite-sheet\png\summer\jump\1_summer_Jump_005.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.500574" original-source="C:\Users\Arthu\Downloads\craftpix-955440-2d-game-chibi-boy-free-character-sprite-sheet\png\summer\jump\1_summer_Jump_006.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.500574" original-source="C:\Users\Arthu\Downloads\craftpix-955440-2d-game-chibi-boy-free-character-sprite-sheet\png\summer\jump\1_summer_Jump_007.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J3Parabens" sid="329387124010646">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="194294383098234" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J3Particula" sid="226245278665801">
+                <plugin id="Particles" />
+                <texture />
+            </object-type>
+            <object-type name="J3quadradoCinza" sid="676836218729860">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="279014196680603" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Downloads\checkbox.png" />
+                    </animation>
+                    <animation framecount="1" loop="0" name="Acerto" pingpong="0" repeatcount="1" repeatto="0" sid="827363828603985" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Downloads\checkbox.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J3SpriteFontParabens" sid="741983384614093">
+                <plugin id="Spritefont2" />
+                <texture original-source="C:\Users\Arthu\Desktop\arthur o black\SpriteFont_pingwing_Medium_(72)_[1,1,1,1]_70x87.png" />
+            </object-type>
+            <object-type name="J3TrianguloCinza" sid="330197405767752">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="744067123297391" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Downloads\dark-triangle.png">
+                            <collision-poly>
+                                <point x="0.5" y="0.00195313" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Acerto" pingpong="0" repeatcount="1" repeatto="0" sid="511751933615065" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Downloads\dark-triangle.png">
+                            <collision-poly>
+                                <point x="0.5" y="0.00195313" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J3TrianguloVerde" sid="633887048558261">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="DragDrop" sid="135224843281882">
+                        <behavior id="DragnDrop" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="159923514402633" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Downloads\dark-triangle.png">
+                            <collision-poly>
+                                <point x="0.5" y="0.00195313" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J3QuadroVerde" sid="259164955855797">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="DragDrop" sid="256103796597159">
+                        <behavior id="DragnDrop" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="149660992881214" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Downloads\checkbox.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J3QuadroSelecao" sid="760831588492548">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="846652075977513" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Documents\sprite\fundo\IMagens CUstomizadas\Borda5.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="0.5" y="0.0133333" />
+                                <point x="0.776471" y="0.126667" />
+                                <point x="0.982353" y="0.5" />
+                                <point x="0.788235" y="0.88" />
+                                <point x="0.5" y="0.99" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="Jogo4">
+            <object-type name="J4BracoDireitoCinza" sid="538813662456932">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="407633129639241" speed="5">
+                        <frame duration="1" hotspotX="0.507692" hotspotY="0.5" original-source="F:\Ramon_pessoa\MENINO\cinza\bracoDireito.png">
+                            <collision-poly>
+                                <point x="0.0153846" y="0.00531915" />
+                                <point x="0.492308" y="0.18617" />
+                                <point x="0.492308" y="0.175532" />
+                                <point x="0.753846" y="0.5" />
+                                <point x="0.907692" y="0.968085" />
+                                <point x="0.492308" y="0.952128" />
+                                <point x="0.353846" y="0.87766" />
+                                <point x="0.246154" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Acerto" pingpong="0" repeatcount="1" repeatto="0" sid="127142302989712" speed="5">
+                        <frame duration="1" hotspotX="0.507692" hotspotY="0.5" original-source="F:\Ramon_pessoa\MENINO\bracoDireito.png">
+                            <collision-poly>
+                                <point x="0.0153846" y="0.00531915" />
+                                <point x="0.492308" y="0.18617" />
+                                <point x="0.492308" y="0.175532" />
+                                <point x="0.753846" y="0.5" />
+                                <point x="0.907692" y="0.968085" />
+                                <point x="0.492308" y="0.952128" />
+                                <point x="0.353846" y="0.87766" />
+                                <point x="0.246154" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J4BracoDireitoColorido" sid="119056530235408">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="DragDrop" sid="722288712731795">
+                        <behavior id="DragnDrop" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="356135378124435" speed="5">
+                        <frame duration="1" hotspotX="0.507692" hotspotY="0.5" original-source="C:\Users\Arthu\Desktop\MeninoRoupa\images\sprite15-sheet0.png">
+                            <collision-poly>
+                                <point x="0.0153846" y="0.00531915" />
+                                <point x="0.492308" y="0.18617" />
+                                <point x="0.492308" y="0.175532" />
+                                <point x="0.753846" y="0.5" />
+                                <point x="0.907692" y="0.968085" />
+                                <point x="0.492308" y="0.952128" />
+                                <point x="0.353846" y="0.87766" />
+                                <point x="0.246154" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J4BracoEsquerdo" sid="816355562937311">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="382832722620859" speed="5">
+                        <frame duration="1" hotspotX="0.507463" hotspotY="0.502488" original-source="F:\Ramon_pessoa\MENINO\cinza\bracoEsquerdo.png">
+                            <collision-poly>
+                                <point x="0.492537" y="0.164179" />
+                                <point x="0.492537" y="0.159204" />
+                                <point x="1" y="0" />
+                                <point x="0.716418" y="0.497512" />
+                                <point x="0.626866" y="0.875622" />
+                                <point x="0.492537" y="0.935323" />
+                                <point x="0.0895522" y="0.970149" />
+                                <point x="0.208955" y="0.497512" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Acerto" pingpong="0" repeatcount="1" repeatto="0" sid="771668301287658" speed="5">
+                        <frame duration="1" hotspotX="0.507463" hotspotY="0.502488" original-source="F:\Ramon_pessoa\MENINO\bracoEsquerdo.png">
+                            <collision-poly>
+                                <point x="0.492537" y="0.164179" />
+                                <point x="0.492537" y="0.159204" />
+                                <point x="1" y="0" />
+                                <point x="0.716418" y="0.497512" />
+                                <point x="0.626866" y="0.875622" />
+                                <point x="0.492537" y="0.935323" />
+                                <point x="0.0895522" y="0.970149" />
+                                <point x="0.208955" y="0.497512" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J4BracoEsquerdoColorido" sid="263458250163538">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="DragDrop" sid="406203174933466">
+                        <behavior id="DragnDrop" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="621223069862719" speed="5">
+                        <frame duration="1" hotspotX="0.507463" hotspotY="0.502488" original-source="F:\Ramon_pessoa\MENINO\bracoEsquerdo.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="0.992537" y="0" />
+                                <point x="1" y="0.50103" />
+                                <point x="1" y="1" />
+                                <point x="0" y="0.99005" />
+                                <point x="0" y="0.514925" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J4BtnRestart" sid="774604652813398">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="436078270949172" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Downloads\craftpix-889156-free-racing-game-kit\PNG\Buttons\Replay_BTN.png">
+                            <collision-poly>
+                                <point x="0.06" y="0.0588235" />
+                                <point x="0.5" y="0" />
+                                <point x="0.94" y="0.0588235" />
+                                <point x="1" y="0.5" />
+                                <point x="0.935" y="0.936275" />
+                                <point x="0.5" y="1" />
+                                <point x="0.065" y="0.936275" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J4CabecaCinza" sid="439006121117815">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="163657145596653" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.501129" original-source="F:\Ramon_pessoa\MENINO\cinza\cabeca.png">
+                            <collision-poly>
+                                <point x="0.169643" y="0.214447" />
+                                <point x="0.5" y="0.00225734" />
+                                <point x="0.871429" y="0.162528" />
+                                <point x="0.975" y="0.498871" />
+                                <point x="0.864286" y="0.828442" />
+                                <point x="0.5" y="1" />
+                                <point x="0.180357" y="0.772009" />
+                                <point x="0.144643" y="0.498871" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Acerto" pingpong="0" repeatcount="1" repeatto="0" sid="527483470900315" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.501129" original-source="F:\Ramon_pessoa\MENINO\cabeca.png">
+                            <collision-poly>
+                                <point x="0.169643" y="0.214447" />
+                                <point x="0.5" y="0.00225734" />
+                                <point x="0.871429" y="0.162528" />
+                                <point x="0.975" y="0.498871" />
+                                <point x="0.864286" y="0.828442" />
+                                <point x="0.5" y="1" />
+                                <point x="0.180357" y="0.772009" />
+                                <point x="0.144643" y="0.498871" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J4CabecaColorida" sid="490629566484823">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="DragDrop" sid="940239489533468">
+                        <behavior id="DragnDrop" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="191533536308640" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.501129" original-source="F:\Ramon_pessoa\MENINO\cabeca.png">
+                            <collision-poly>
+                                <point x="0" y="0.0215152" />
+                                <point x="0.607143" y="0" />
+                                <point x="1" y="0" />
+                                <point x="0.973159" y="1" />
+                                <point x="0.485714" y="1" />
+                                <point x="0" y="1" />
+                                <point x="0" y="0.572235" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J4Fundo" sid="919261644008921">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="200357199770704" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Desktop\MeninoRoupa\images\background-sheet0.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J4FundoAmarelo" sid="285334596832950">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="753525546771138" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J4Menino" sid="622614183654732">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="5" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="244785151933170" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.500574" original-source="C:\Users\Arthu\Downloads\craftpix-955440-2d-game-chibi-boy-free-character-sprite-sheet\png\summer\jump\1_summer_Jump_003.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.500574" original-source="C:\Users\Arthu\Downloads\craftpix-955440-2d-game-chibi-boy-free-character-sprite-sheet\png\summer\jump\1_summer_Jump_004.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.500574" original-source="C:\Users\Arthu\Downloads\craftpix-955440-2d-game-chibi-boy-free-character-sprite-sheet\png\summer\jump\1_summer_Jump_005.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.500574" original-source="C:\Users\Arthu\Downloads\craftpix-955440-2d-game-chibi-boy-free-character-sprite-sheet\png\summer\jump\1_summer_Jump_006.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.500574" original-source="C:\Users\Arthu\Downloads\craftpix-955440-2d-game-chibi-boy-free-character-sprite-sheet\png\summer\jump\1_summer_Jump_007.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J4Parabens" sid="476667199373436">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="906505247353394" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J4Particula" sid="914831376225185">
+                <plugin id="Particles" />
+                <texture />
+            </object-type>
+            <object-type name="J4PernasCinzas" sid="114627284530516">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="859001537320555" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Ramon_pessoa\MENINO\cinza\pernas.png">
+                            <collision-poly>
+                                <point x="0.03125" y="0.0190476" />
+                                <point x="0.5" y="0" />
+                                <point x="0.96875" y="0.0190476" />
+                                <point x="0.953125" y="0.971429" />
+                                <point x="0.5" y="0.385714" />
+                                <point x="0.046875" y="0.971429" />
+                                <point x="0.0546875" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Acerto" pingpong="0" repeatcount="1" repeatto="0" sid="676417786254148" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Ramon_pessoa\MENINO\pernas.png">
+                            <collision-poly>
+                                <point x="0.03125" y="0.0190476" />
+                                <point x="0.5" y="0" />
+                                <point x="0.96875" y="0.0190476" />
+                                <point x="0.953125" y="0.971429" />
+                                <point x="0.5" y="0.385714" />
+                                <point x="0.046875" y="0.971429" />
+                                <point x="0.0546875" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J4PernasColoridas" sid="794427887413778">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="DragDrop" sid="976282046662114">
+                        <behavior id="DragnDrop" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="122807284265104" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Desktop\MeninoRoupa\images\sprite12-sheet0.png">
+                            <collision-poly>
+                                <point x="0.03125" y="0.0190476" />
+                                <point x="0.5" y="0" />
+                                <point x="0.96875" y="0.0190476" />
+                                <point x="0.953125" y="0.971429" />
+                                <point x="0.5" y="0.385714" />
+                                <point x="0.046875" y="0.971429" />
+                                <point x="0.0546875" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J4SpriteFontParabens" sid="602466764446714">
+                <plugin id="Spritefont2" />
+                <texture original-source="C:\Users\Arthu\Desktop\arthur o black\SpriteFont_pingwing_Medium_(72)_[1,1,1,1]_70x87.png" />
+            </object-type>
+            <object-type name="J4ToncoColorido" sid="291411115225428">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="DragDrop" sid="227193776848627">
+                        <behavior id="DragnDrop" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="892688151414302" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.503817" original-source="C:\Users\Arthu\Desktop\MeninoRoupa\images\sprite5-sheet0.png">
+                            <collision-poly>
+                                <point x="0.107143" y="0.114504" />
+                                <point x="0.5" y="0" />
+                                <point x="0.885714" y="0.122137" />
+                                <point x="1" y="0.496183" />
+                                <point x="0.935714" y="0.931298" />
+                                <point x="0.5" y="1" />
+                                <point x="0.0571429" y="0.938931" />
+                                <point x="0.00714286" y="0.496183" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J4TroncoCinza" sid="641936870892804">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="824594739443041" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.503817" original-source="F:\Ramon_pessoa\MENINO\cinza\tronco.png">
+                            <collision-poly>
+                                <point x="0.107143" y="0.114504" />
+                                <point x="0.5" y="0" />
+                                <point x="0.885714" y="0.122137" />
+                                <point x="1" y="0.496183" />
+                                <point x="0.935714" y="0.931298" />
+                                <point x="0.5" y="1" />
+                                <point x="0.0571429" y="0.938931" />
+                                <point x="0.00714286" y="0.496183" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Acerto" pingpong="0" repeatcount="1" repeatto="0" sid="874577735470703" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.503817" original-source="F:\Ramon_pessoa\MENINO\tronco.png">
+                            <collision-poly>
+                                <point x="0.107143" y="0.114504" />
+                                <point x="0.5" y="0" />
+                                <point x="0.885714" y="0.122137" />
+                                <point x="1" y="0.496183" />
+                                <point x="0.935714" y="0.931298" />
+                                <point x="0.5" y="1" />
+                                <point x="0.0571429" y="0.938931" />
+                                <point x="0.00714286" y="0.496183" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="Jogo5">
+            <object-type name="J5BotaoTocarMusica" sid="169057354028851">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="366596860667983" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Downloads\craftpix-889156-free-racing-game-kit\PNG\Buttons\Play_BTN.png">
+                            <collision-poly>
+                                <point x="0.06" y="0.0588235" />
+                                <point x="0.5" y="0" />
+                                <point x="0.94" y="0.0588235" />
+                                <point x="1" y="0.5" />
+                                <point x="0.935" y="0.936275" />
+                                <point x="0.5" y="1" />
+                                <point x="0.065" y="0.936275" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J5BtnRestart" sid="494801218489827">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="466398588258261" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Downloads\craftpix-889156-free-racing-game-kit\PNG\Buttons\Replay_BTN.png">
+                            <collision-poly>
+                                <point x="0.06" y="0.0588235" />
+                                <point x="0.5" y="0" />
+                                <point x="0.94" y="0.0588235" />
+                                <point x="1" y="0.5" />
+                                <point x="0.935" y="0.936275" />
+                                <point x="0.5" y="1" />
+                                <point x="0.065" y="0.936275" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J5Cachorro" sid="526711698768175">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="584284278264284" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Downloads\dog (1).png">
+                            <collision-poly>
+                                <point x="0.152344" y="0.152344" />
+                                <point x="0.5" y="0.0625" />
+                                <point x="0.847656" y="0.152344" />
+                                <point x="0.953125" y="0.5" />
+                                <point x="0.830078" y="0.830078" />
+                                <point x="0.5" y="0.9375" />
+                                <point x="0.169922" y="0.830078" />
+                                <point x="0.046875" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J5FundoAmarelo" sid="954713359555189">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="189981016586745" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J5Gato" sid="143302750364239">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="977063488243556" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Downloads\cat.png">
+                            <collision-poly>
+                                <point x="0.0800781" y="0.0800781" />
+                                <point x="0.5" y="0.142578" />
+                                <point x="0.919922" y="0.0800781" />
+                                <point x="0.947266" y="0.5" />
+                                <point x="0.847656" y="0.847656" />
+                                <point x="0.5" y="1" />
+                                <point x="0.152344" y="0.847656" />
+                                <point x="0.0527344" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J5Menino" sid="935674975379963">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="5" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="377086827285242" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.500574" original-source="C:\Users\Arthu\Downloads\craftpix-955440-2d-game-chibi-boy-free-character-sprite-sheet\png\summer\jump\1_summer_Jump_003.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.500574" original-source="C:\Users\Arthu\Downloads\craftpix-955440-2d-game-chibi-boy-free-character-sprite-sheet\png\summer\jump\1_summer_Jump_004.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.500574" original-source="C:\Users\Arthu\Downloads\craftpix-955440-2d-game-chibi-boy-free-character-sprite-sheet\png\summer\jump\1_summer_Jump_005.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.500574" original-source="C:\Users\Arthu\Downloads\craftpix-955440-2d-game-chibi-boy-free-character-sprite-sheet\png\summer\jump\1_summer_Jump_006.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.500574" original-source="C:\Users\Arthu\Downloads\craftpix-955440-2d-game-chibi-boy-free-character-sprite-sheet\png\summer\jump\1_summer_Jump_007.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J5Parabens" sid="959045898678364">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="358168158887339" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J5SpriteFontParabens" sid="467278334214428">
+                <plugin id="Spritefont2" />
+                <texture original-source="C:\Users\Arthu\Desktop\arthur o black\SpriteFont_pingwing_Medium_(72)_[1,1,1,1]_70x87.png" />
+            </object-type>
+            <object-type name="J5TxtAnimais" sid="904309699331424">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="J5TxtQueSom" sid="259002616910701">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="J5Vaca" sid="922488381209911">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="732652857609255" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Downloads\cow.png">
+                            <collision-poly>
+                                <point x="0.181641" y="0.181641" />
+                                <point x="0.5" y="0.164063" />
+                                <point x="0.822266" y="0.177734" />
+                                <point x="0.837891" y="0.5" />
+                                <point x="0.748047" y="0.748047" />
+                                <point x="0.5" y="1" />
+                                <point x="0.255859" y="0.744141" />
+                                <point x="0.166016" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J5Leao" sid="641860913253156">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="958551709503039" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Downloads\lion.png">
+                            <collision-poly>
+                                <point x="0.138672" y="0.138672" />
+                                <point x="0.5" y="0.046875" />
+                                <point x="0.861328" y="0.138672" />
+                                <point x="1" y="0.5" />
+                                <point x="0.835938" y="0.835938" />
+                                <point x="0.5" y="0.998047" />
+                                <point x="0.164063" y="0.835938" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J5ImagenSom" sid="512834159008080">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="603845342632542" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Downloads\speaker.png">
+                            <collision-poly>
+                                <point x="0.263672" y="0.263672" />
+                                <point x="0.837891" y="0.162109" />
+                                <point x="1" y="0.5" />
+                                <point x="0.833984" y="0.833984" />
+                                <point x="0.263672" y="0.736328" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J5Fundo" sid="166614599825707">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="771041217688818" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Desktop\MeninoRoupa\images\background-sheet0.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="Jogo6">
+            <object-type name="J6Carro" sid="307697521666301">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="551411067008361" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.500481" original-source="C:\Users\Arthu\Downloads\craftpix-889156-free-racing-game-kit\PNG\Car_3_Main_Positions\Car_3_01.png">
+                            <collision-poly>
+                                <point x="0.151645" y="0.0712366" />
+                                <point x="0.499285" y="0.0336022" />
+                                <point x="0.849785" y="0.0705645" />
+                                <point x="0.866953" y="0.9375" />
+                                <point x="0.499285" y="0.961021" />
+                                <point x="0.133047" y="0.9375" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J6CertoA" sid="950207609692552">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="953820871910771" speed="5">
+                        <frame duration="1" hotspotX="0.500639" hotspotY="0.5" original-source="C:\Users\Arthu\Documents\MaisQueEspecialGames\Labirinto\A.png">
+                            <collision-poly>
+                                <point x="0.445722" y="0.369703" />
+                                <point x="0.499361" y="0.0614407" />
+                                <point x="0.911877" y="0.0730932" />
+                                <point x="0.9553" y="0.5" />
+                                <point x="0.722861" y="0.770127" />
+                                <point x="0.499361" y="0.993644" />
+                                <point x="0.137931" y="0.885593" />
+                                <point x="0.00127715" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J6ErradoB" sid="907344339118489">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="939650574981158" speed="5">
+                        <frame duration="1" hotspotX="0.500639" hotspotY="0.5" original-source="C:\Users\Arthu\Documents\MaisQueEspecialGames\Labirinto\B.png">
+                            <collision-poly>
+                                <point x="0.445722" y="0.369703" />
+                                <point x="0.499361" y="0.0614407" />
+                                <point x="0.911877" y="0.0730932" />
+                                <point x="0.9553" y="0.5" />
+                                <point x="0.722861" y="0.770127" />
+                                <point x="0.499361" y="0.993644" />
+                                <point x="0.137931" y="0.885593" />
+                                <point x="0.00127714" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J6ErradoC" sid="966673807957463">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="337413506015220" speed="5">
+                        <frame duration="1" hotspotX="0.500639" hotspotY="0.5" original-source="C:\Users\Arthu\Documents\MaisQueEspecialGames\Labirinto\C.png">
+                            <collision-poly>
+                                <point x="0.445722" y="0.369703" />
+                                <point x="0.499361" y="0.0614407" />
+                                <point x="0.911877" y="0.0730932" />
+                                <point x="0.9553" y="0.5" />
+                                <point x="0.722861" y="0.770127" />
+                                <point x="0.499361" y="0.993644" />
+                                <point x="0.137931" y="0.885593" />
+                                <point x="0.00127714" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J6Fundo" sid="887556051369444">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="447146725796851" speed="5">
+                        <frame duration="1" hotspotX="0.500639" hotspotY="0.5" original-source="C:\Users\Arthu\Documents\MaisQueEspecialGames\Labirinto\New.png">
+                            <collision-poly>
+                                <point x="0.445722" y="0.369703" />
+                                <point x="0.499361" y="0.0614407" />
+                                <point x="0.911877" y="0.0730932" />
+                                <point x="0.9553" y="0.5" />
+                                <point x="0.722861" y="0.770127" />
+                                <point x="0.499361" y="0.993644" />
+                                <point x="0.137931" y="0.885593" />
+                                <point x="0.00127714" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J6Fundo_vitoria2" sid="916418184040762">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="588235761920402" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J6FundoParabens" sid="595204137484674">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="540910829732308" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J6Menino" sid="975881087063230">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="5" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="901855487397698" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Downloads\craftpix-955440-2d-game-chibi-boy-free-character-sprite-sheet\png\autumn\fun\1_autumn_Fun_000.png">
+                            <collision-poly>
+                                <point x="0.178322" y="0.12439" />
+                                <point x="0.5" y="0.00731707" />
+                                <point x="0.865385" y="0.0939024" />
+                                <point x="0.825175" y="0.5" />
+                                <point x="0.676573" y="0.77439" />
+                                <point x="0.5" y="0.992683" />
+                                <point x="0.293706" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.500882" hotspotY="0.5" original-source="C:\Users\Arthu\Downloads\craftpix-955440-2d-game-chibi-boy-free-character-sprite-sheet\png\autumn\jump\1_autumn_Jump_005.png" />
+                        <frame duration="1" hotspotX="0.500882" hotspotY="0.5" original-source="C:\Users\Arthu\Downloads\craftpix-955440-2d-game-chibi-boy-free-character-sprite-sheet\png\autumn\jump\1_autumn_Jump_006.png" />
+                        <frame duration="1" hotspotX="0.500882" hotspotY="0.5" original-source="C:\Users\Arthu\Downloads\craftpix-955440-2d-game-chibi-boy-free-character-sprite-sheet\png\autumn\jump\1_autumn_Jump_007.png" />
+                        <frame duration="1" hotspotX="0.500882" hotspotY="0.5" original-source="C:\Users\Arthu\Downloads\craftpix-955440-2d-game-chibi-boy-free-character-sprite-sheet\png\autumn\jump\1_autumn_Jump_008.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J6MeninoAmarelo" sid="877952215758085">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="782553791697701" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Downloads\craftpix-955440-2d-game-chibi-boy-free-character-sprite-sheet\png\summer\fun\1_summer_Fun_000.png">
+                            <collision-poly>
+                                <point x="0.131687" y="0.0826873" />
+                                <point x="0.5" y="0.00645995" />
+                                <point x="0.829218" y="0.107235" />
+                                <point x="0.695473" y="0.5" />
+                                <point x="0.621399" y="0.762274" />
+                                <point x="0.5" y="0.994832" />
+                                <point x="0.117284" y="0.926357" />
+                                <point x="0.244856" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="J6SpriteFont" sid="733717575738990">
+                <plugin id="Spritefont2" />
+                <texture original-source="C:\Users\Arthu\Desktop\arthur o black\SpriteFont_pingwing_Medium_(72)_[1,1,1,1]_70x87.png" />
+            </object-type>
+            <object-type name="J6Text_Letra_C" sid="168537978657839">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="J6TxtLetra_A" sid="334032867780375">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="J6TxtLetra_B" sid="970343070086749">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="J6FundoGradiente" sid="739604389612058">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="564938623020158" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Videos\Captures\fundo-de-explosao-de-sol-abstrato-roxo_1164-1695.jpg" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="Jogo7">
+            <object-folder name="Fase1">
+                <object-type name="J7FundoInverno" sid="230117883019051">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="672781327558678" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\backGround\_PNG\04\parallax04_preview-01.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="J7MeninoAmareloErrado" sid="449642763822315">
+                    <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="DragDrop" sid="801316275284292">
+                            <behavior id="DragnDrop" />
+                        </behavior-type>
+                    </behaviors>
+                    <animation-folder>
+                        <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="820055455788996" speed="0">
+                            <frame duration="1" hotspotX="0.50101" hotspotY="0.5" original-source="C:\Users\Arthu\Downloads\craftpix-955440-2d-game-chibi-boy-free-character-sprite-sheet\png\summer\idle\1_summer_Idle_009.png">
+                                <collision-poly>
+                                    <point x="0.131313" y="0.0839793" />
+                                    <point x="0.49899" y="0.00645995" />
+                                    <point x="0.836364" y="0.104651" />
+                                    <point x="0.618182" y="0.755814" />
+                                    <point x="0.49899" y="0.994832" />
+                                    <point x="0.123232" y="0.921189" />
+                                    <point x="0.244444" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.500898" hotspotY="0.50062" original-source="C:\Users\Arthu\Desktop\craftpix-955440-2d-game-chibi-boy-free-character-sprite-sheet (2)\png\autumn\gift\1_autumn_Gift_000.png" />
+                            <frame duration="1" hotspotX="0.50096" hotspotY="0.5" original-source="C:\Users\Arthu\Desktop\craftpix-955440-2d-game-chibi-boy-free-character-sprite-sheet (2)\png\winter\idle\1_winter_Idle_000.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="J7MeninoCinza" sid="885391741176832">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="563324946641212" speed="0">
+                            <frame duration="1" hotspotX="0.50096" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\Menino\1_winter_Idle_000_cinza.png">
+                                <collision-poly>
+                                    <point x="0.205374" y="0.122426" />
+                                    <point x="0.49904" y="0.0846682" />
+                                    <point x="0.761996" y="0.141876" />
+                                    <point x="0.81382" y="0.5" />
+                                    <point x="0.49904" y="0.995423" />
+                                    <point x="0.322457" y="0.80778" />
+                                    <point x="0.159309" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.500898" hotspotY="0.50062" original-source="F:\ProjetoMaisQueEspecial\IMG\Menino\1_autumn_Gift_000_cinza.png" />
+                            <frame duration="1" hotspotX="0.50101" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\Menino\1_summer_Idle_000_cinza.png" />
+                        </animation>
+                        <animation framecount="3" loop="0" name="Acerto" pingpong="0" repeatcount="1" repeatto="0" sid="769008028629090" speed="0">
+                            <frame duration="1" hotspotX="0.50096" hotspotY="0.5" original-source="C:\Users\Arthu\Downloads\craftpix-955440-2d-game-chibi-boy-free-character-sprite-sheet\png\winter\idle\1_winter_Idle_000.png">
+                                <collision-poly>
+                                    <point x="0.205374" y="0.122426" />
+                                    <point x="0.49904" y="0.0846682" />
+                                    <point x="0.761996" y="0.141876" />
+                                    <point x="0.81382" y="0.5" />
+                                    <point x="0.49904" y="0.995423" />
+                                    <point x="0.322457" y="0.80778" />
+                                    <point x="0.159309" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.500898" hotspotY="0.50062" original-source="F:\ProjetoMaisQueEspecial\IMG\Menino\1_autumn_Gift_000.png" />
+                            <frame duration="1" hotspotX="0.50101" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\Menino\1_summer_Idle_000.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="J7MeninoColorido" sid="909215919410367">
+                    <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="DragDrop" sid="110179880214608">
+                            <behavior id="DragnDrop" />
+                        </behavior-type>
+                    </behaviors>
+                    <animation-folder>
+                        <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="508826245534026" speed="0">
+                            <frame duration="1" hotspotX="0.50096" hotspotY="0.5" original-source="C:\Users\Arthu\Downloads\craftpix-955440-2d-game-chibi-boy-free-character-sprite-sheet\png\winter\idle\1_winter_Idle_009.png">
+                                <collision-poly>
+                                    <point x="0.209213" y="0.124714" />
+                                    <point x="0.49904" y="0.0549199" />
+                                    <point x="0.763916" y="0.140732" />
+                                    <point x="0.815739" y="0.5" />
+                                    <point x="0.49904" y="0.995423" />
+                                    <point x="0.320537" y="0.808924" />
+                                    <point x="0.170825" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.50101" hotspotY="0.5" original-source="C:\Users\Arthu\Desktop\craftpix-955440-2d-game-chibi-boy-free-character-sprite-sheet (2)\png\summer\idle\1_summer_Idle_000.png" />
+                            <frame duration="1" hotspotX="0.500898" hotspotY="0.50062" original-source="C:\Users\Arthu\Desktop\craftpix-955440-2d-game-chibi-boy-free-character-sprite-sheet (2)\png\autumn\gift\1_autumn_Gift_000.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="J7MeninoVermelhoErrado" sid="660476800786752">
+                    <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="DragDrop" sid="412392966223793">
+                            <behavior id="DragnDrop" />
+                        </behavior-type>
+                    </behaviors>
+                    <animation-folder>
+                        <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="610578489488603" speed="0">
+                            <frame duration="1" hotspotX="0.500898" hotspotY="0.50062" original-source="C:\Users\Arthu\Downloads\craftpix-955440-2d-game-chibi-boy-free-character-sprite-sheet\png\autumn\gift\1_autumn_Gift_000.png">
+                                <collision-poly>
+                                    <point x="0.174147" y="0.120198" />
+                                    <point x="0.499102" y="0.00123916" />
+                                    <point x="0.874327" y="0.086741" />
+                                    <point x="0.83842" y="0.49938" />
+                                    <point x="0.890485" y="0.924411" />
+                                    <point x="0.499102" y="0.993804" />
+                                    <point x="0.400359" y="0.723668" />
+                                    <point x="0.285458" y="0.49938" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.50101" hotspotY="0.5" original-source="C:\Users\Arthu\Desktop\craftpix-955440-2d-game-chibi-boy-free-character-sprite-sheet (2)\png\summer\idle\1_summer_Idle_000.png" />
+                            <frame duration="1" hotspotX="0.50096" hotspotY="0.5" original-source="C:\Users\Arthu\Desktop\craftpix-955440-2d-game-chibi-boy-free-character-sprite-sheet (2)\png\winter\idle\1_winter_Idle_000.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="J7TxtInverno" sid="746092765909002">
+                    <plugin id="Text" />
+                </object-type>
+            </object-folder>
+            <object-folder name="Fase2">
+                <object-type name="J7Fase2FundoVerao" sid="552096199838879">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="467428772049181" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\backGround\_PNG\01\parallax01_preview-01.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="J7Fase2TxtVerao" sid="918076022092936">
+                    <plugin id="Text" />
+                </object-type>
+            </object-folder>
+            <object-folder name="Fase3">
+                <object-type name="J7Fase3Fundo" sid="293863601536261">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="834275846129239" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\backGround\_PNG\02\Original Files\parallax02_preview-01.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="J7Fase3txtPrimavera" sid="794113988619689">
+                    <plugin id="Text" />
+                </object-type>
+                <object-type name="J7Fase3MeninoCinza" sid="283575016834056">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="144017659383224" speed="5">
+                            <frame duration="1" hotspotX="0.500898" hotspotY="0.50062" original-source="F:\ProjetoMaisQueEspecial\IMG\Menino\1_autumn_Gift_000_cinza.png">
+                                <collision-poly>
+                                    <point x="0.174147" y="0.120198" />
+                                    <point x="0.499102" y="0.00123916" />
+                                    <point x="0.874327" y="0.086741" />
+                                    <point x="0.83842" y="0.49938" />
+                                    <point x="0.890485" y="0.924411" />
+                                    <point x="0.499102" y="0.993804" />
+                                    <point x="0.400359" y="0.723668" />
+                                    <point x="0.285458" y="0.49938" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                        <animation framecount="1" loop="0" name="Acerto" pingpong="0" repeatcount="1" repeatto="0" sid="803421373827559" speed="5">
+                            <frame duration="1" hotspotX="0.500898" hotspotY="0.50062" original-source="F:\ProjetoMaisQueEspecial\IMG\Menino\1_autumn_Gift_000.png">
+                                <collision-poly>
+                                    <point x="0.174147" y="0.120198" />
+                                    <point x="0.499102" y="0.00123916" />
+                                    <point x="0.874327" y="0.086741" />
+                                    <point x="0.83842" y="0.49938" />
+                                    <point x="0.890485" y="0.924411" />
+                                    <point x="0.499102" y="0.993804" />
+                                    <point x="0.400359" y="0.723668" />
+                                    <point x="0.285458" y="0.49938" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+            </object-folder>
+        </object-folder>
+        <object-folder name="JogoTesteDiaNoite">
+            <object-type name="JTCama" sid="235396589858502">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="DragDrop" sid="124276150213070">
+                        <behavior id="DragnDrop" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="255296679697572" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Desktop\bedtime.png">
+                            <collision-poly>
+                                <point x="0.558594" y="0.558594" />
+                                <point x="0.5" y="0.539063" />
+                                <point x="0.929688" y="0.0703125" />
+                                <point x="0.144531" y="0.5" />
+                                <point x="0.994141" y="0.994141" />
+                                <point x="0.00585938" y="0.994141" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="JTBolaCinza" sid="760317881614408">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="594560326703685" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Desktop\soccer-ball-in-front-of-the-arch.png">
+                            <collision-poly>
+                                <point x="0.152344" y="0.152344" />
+                                <point x="0.847656" y="0.152344" />
+                                <point x="1" y="0.5" />
+                                <point x="0.669922" y="0.669922" />
+                                <point x="0.5" y="0.646484" />
+                                <point x="0.210938" y="0.789063" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Acerto" pingpong="0" repeatcount="1" repeatto="0" sid="451632926359784" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Desktop\soccer-ball-in-front-of-the-arch.png">
+                            <collision-poly>
+                                <point x="0.152344" y="0.152344" />
+                                <point x="0.847656" y="0.152344" />
+                                <point x="1" y="0.5" />
+                                <point x="0.669922" y="0.669922" />
+                                <point x="0.5" y="0.646484" />
+                                <point x="0.210938" y="0.789063" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="JTBolacolorida" sid="228018320552580">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="DragDrop" sid="430553927477574">
+                        <behavior id="DragnDrop" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="635585229687146" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Desktop\soccer-ball-in-front-of-the-arch.png">
+                            <collision-poly>
+                                <point x="0.152344" y="0.152344" />
+                                <point x="0.847656" y="0.152344" />
+                                <point x="1" y="0.5" />
+                                <point x="0.669922" y="0.669922" />
+                                <point x="0.5" y="0.646484" />
+                                <point x="0.210938" y="0.789063" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="JtEstrela" sid="839917023233148">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="DragDrop" sid="541510084407904">
+                        <behavior id="DragnDrop" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="193134762588928" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Downloads\star.png">
+                            <collision-poly>
+                                <point x="0.337891" y="0.337891" />
+                                <point x="0.5" y="0.0273438" />
+                                <point x="0.662109" y="0.337891" />
+                                <point x="0.884766" y="0.5" />
+                                <point x="0.775391" y="0.775391" />
+                                <point x="0.5" y="0.814453" />
+                                <point x="0.224609" y="0.775391" />
+                                <point x="0.115234" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="JTFundo" sid="795428467237867">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="129517475444368" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\backGround\craftpix-891134-sky-2d-game-backgrounds\PNG\1_game_background\1_game_background.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="JTMeninoCinza" sid="408493749678678">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="756337020197262" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Downloads\rope-jumping.png">
+                            <collision-poly>
+                                <point x="0.253906" y="0.253906" />
+                                <point x="0.5" y="0" />
+                                <point x="0.746094" y="0.253906" />
+                                <point x="0.765625" y="0.5" />
+                                <point x="0.619141" y="0.619141" />
+                                <point x="0.5" y="0.826172" />
+                                <point x="0.380859" y="0.619141" />
+                                <point x="0.234375" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Acerto" pingpong="0" repeatcount="1" repeatto="0" sid="636398074823151" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Downloads\rope-jumping.png">
+                            <collision-poly>
+                                <point x="0.220703" y="0.220703" />
+                                <point x="0.5" y="0" />
+                                <point x="0.779297" y="0.220703" />
+                                <point x="0.787109" y="0.5" />
+                                <point x="0.5" y="0.736328" />
+                                <point x="0.265625" y="0.734375" />
+                                <point x="0.212891" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="JTLua" sid="341142286068759">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="DragDrop" sid="572766173178368">
+                        <behavior id="DragnDrop" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="664796372741582" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Downloads\moon.png">
+                            <collision-poly>
+                                <point x="0.216797" y="0.216797" />
+                                <point x="0.5" y="0.0527344" />
+                                <point x="0.851563" y="0.148438" />
+                                <point x="0.601563" y="0.5" />
+                                <point x="0.851563" y="0.851563" />
+                                <point x="0.5" y="0.947266" />
+                                <point x="0.216797" y="0.783203" />
+                                <point x="0.117188" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="JTMEninoColorido" sid="868011321200983">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="DragDrop" sid="263674140342374">
+                        <behavior id="DragnDrop" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="183721690953365" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Downloads\rope-jumping.png">
+                            <collision-poly>
+                                <point x="0.253906" y="0.253906" />
+                                <point x="0.5" y="0" />
+                                <point x="0.746094" y="0.253906" />
+                                <point x="0.765625" y="0.5" />
+                                <point x="0.619141" y="0.619141" />
+                                <point x="0.5" y="0.826172" />
+                                <point x="0.380859" y="0.619141" />
+                                <point x="0.234375" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="JTSolCinza" sid="311879054714509">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="105370150702213" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Downloads\sunny.png">
+                            <collision-poly>
+                                <point x="0.212891" y="0.212891" />
+                                <point x="0.5" y="0.00195313" />
+                                <point x="0.804688" y="0.195313" />
+                                <point x="0.884766" y="0.5" />
+                                <point x="0.800781" y="0.800781" />
+                                <point x="0.5" y="0.992188" />
+                                <point x="0.175781" y="0.824219" />
+                                <point x="0.103516" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Acerto" pingpong="0" repeatcount="1" repeatto="0" sid="181649373085105" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Downloads\sunny.png">
+                            <collision-poly>
+                                <point x="0.212891" y="0.212891" />
+                                <point x="0.5" y="0.00195313" />
+                                <point x="0.804688" y="0.195313" />
+                                <point x="0.884766" y="0.5" />
+                                <point x="0.800781" y="0.800781" />
+                                <point x="0.5" y="0.992188" />
+                                <point x="0.175781" y="0.824219" />
+                                <point x="0.103516" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="JTSolColorido" sid="291070504675606">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="DragDrop" sid="501801472732670">
+                        <behavior id="DragnDrop" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="504161978786616" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Arthu\Downloads\sunny.png">
+                            <collision-poly>
+                                <point x="0.212891" y="0.212891" />
+                                <point x="0.5" y="0.00195313" />
+                                <point x="0.804688" y="0.195313" />
+                                <point x="0.884766" y="0.5" />
+                                <point x="0.800781" y="0.800781" />
+                                <point x="0.5" y="0.992188" />
+                                <point x="0.175781" y="0.824219" />
+                                <point x="0.103516" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-type name="Sprite2" sid="883752904330890">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="872604544098848" speed="5">
+                    <frame duration="1" hotspotX="0.501786" hotspotY="0.501129" original-source="F:\Ramon_pessoa\MENINO\cinza\cabeca.png">
+                        <collision-poly>
+                            <point x="0.123173" y="0.1475" />
+                            <point x="0.498956" y="0" />
+                            <point x="0.845511" y="0.185" />
+                            <point x="0.916493" y="0.5" />
+                            <point x="0.835073" y="0.8025" />
+                            <point x="0.498956" y="0.9975" />
+                            <point x="0.125261" y="0.85" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Acerto" pingpong="0" repeatcount="1" repeatto="0" sid="964512346883417" speed="5">
+                    <frame duration="1" hotspotX="0.501062" hotspotY="0.5" original-source="C:\Users\Arthu\Downloads\craftpix-955440-2d-game-chibi-boy-free-character-sprite-sheet\scml\autumn\head2.png">
+                        <collision-poly>
+                            <point x="0.127389" y="0.15" />
+                            <point x="0.498938" y="0.0025" />
+                            <point x="0.840764" y="0.1875" />
+                            <point x="0.92569" y="0.5" />
+                            <point x="0.838641" y="0.81" />
+                            <point x="0.498938" y="0.9975" />
+                            <point x="0.127389" y="0.85" />
+                            <point x="0.00212314" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite4" sid="712592719871573">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="554076268397797" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.503817" original-source="F:\Ramon_pessoa\MENINO\cinza\tronco.png">
+                        <collision-poly>
+                            <point x="0.148936" y="0.132075" />
+                            <point x="0.496454" y="0.00628931" />
+                            <point x="0.851064" y="0.132075" />
+                            <point x="0.992908" y="0.496855" />
+                            <point x="0.893617" y="0.90566" />
+                            <point x="0.496454" y="1" />
+                            <point x="0.106383" y="0.90566" />
+                            <point x="0.0141844" y="0.496855" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Acerto" pingpong="0" repeatcount="1" repeatto="0" sid="904738715575156" speed="5">
+                    <frame duration="1" hotspotX="0.503546" hotspotY="0.503145" original-source="C:\Users\Arthu\Downloads\craftpix-955440-2d-game-chibi-boy-free-character-sprite-sheet\scml\autumn\body1.png">
+                        <collision-poly>
+                            <point x="0.148936" y="0.132075" />
+                            <point x="0.496454" y="0.00628931" />
+                            <point x="0.851064" y="0.132075" />
+                            <point x="0.992908" y="0.496855" />
+                            <point x="0.893617" y="0.90566" />
+                            <point x="0.496454" y="1" />
+                            <point x="0.106383" y="0.90566" />
+                            <point x="0.0141844" y="0.496855" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite5" sid="494688162321881">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="299159610468222" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Ramon_pessoa\BackGround.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite" sid="522542255490547">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="666010326699577" speed="5">
+                    <frame duration="1" hotspotX="0.500949" hotspotY="0.502242" original-source="C:\Users\Arthu\Downloads\craftpix-955440-2d-game-chibi-boy-free-character-sprite-sheet\scml\autumn\hear1.png">
+                        <collision-poly>
+                            <point x="0.182163" y="0.430493" />
+                            <point x="0.499051" y="0.00448431" />
+                            <point x="0.897533" y="0.242152" />
+                            <point x="0.971537" y="0.497758" />
+                            <point x="0.891841" y="0.744395" />
+                            <point x="0.499051" y="0.64574" />
+                            <point x="0.0455408" y="0.892377" />
+                            <point x="0.0740038" y="0.497758" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite6" sid="404973176679456">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DragDrop" sid="725076496659804">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="474052624034607" speed="5">
+                    <frame duration="1" hotspotX="0.501062" hotspotY="0.5" original-source="C:\Users\Arthu\Downloads\craftpix-955440-2d-game-chibi-boy-free-character-sprite-sheet\scml\autumn\head2.png">
+                        <collision-poly>
+                            <point x="0.127389" y="0.15" />
+                            <point x="0.498938" y="0.0025" />
+                            <point x="0.840764" y="0.1875" />
+                            <point x="0.92569" y="0.5" />
+                            <point x="0.838641" y="0.81" />
+                            <point x="0.498938" y="0.9975" />
+                            <point x="0.127389" y="0.85" />
+                            <point x="0.00212314" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite7" sid="990939303046261">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DragDrop" sid="573520651125586">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="517492491846380" speed="5">
+                    <frame duration="1" hotspotX="0.503546" hotspotY="0.503145" original-source="C:\Users\Arthu\Downloads\craftpix-955440-2d-game-chibi-boy-free-character-sprite-sheet\scml\autumn\body1.png">
+                        <collision-poly>
+                            <point x="0.148936" y="0.132075" />
+                            <point x="0.496454" y="0.00628931" />
+                            <point x="0.851064" y="0.132075" />
+                            <point x="0.992908" y="0.496855" />
+                            <point x="0.893617" y="0.90566" />
+                            <point x="0.496454" y="1" />
+                            <point x="0.106383" y="0.90566" />
+                            <point x="0.0141844" y="0.496855" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout-folder name="JogoEspaco">
+            <layout>Jogo1.xml</layout>
+            <layout>Jogo1Fase2.xml</layout>
+        </layout-folder>
+        <layout-folder name="JogoCozinha">
+            <layout>Jogo2.xml</layout>
+        </layout-folder>
+        <layout-folder name="JogoFormaGeometrico">
+            <layout>Jogo3.xml</layout>
+        </layout-folder>
+        <layout-folder name="JogoMeninoRoupa">
+            <layout>Jogo4.xml</layout>
+        </layout-folder>
+        <layout-folder name="JogoDescubraSom">
+            <layout>Jogo5.xml</layout>
+        </layout-folder>
+        <layout-folder name="JogoLabirinto">
+            <layout>Jogo6.xml</layout>
+        </layout-folder>
+        <layout-folder name="JogoEstacoes">
+            <layout>Jogo7.xml</layout>
+            <layout>Jogo7Fase2.xml</layout>
+            <layout>Jogo7Fase3.xml</layout>
+        </layout-folder>
+        <layout-folder name="JogoDiaNoite">
+            <layout>Jogo8.xml</layout>
+        </layout-folder>
+        <layout-folder name="JogoDesmontar">
+            <layout>Jogo9.xml</layout>
+        </layout-folder>
+        <layout>Login.xml</layout>
+        <layout>Loading.xml</layout>
+        <layout>Menu.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>EventLogin.xml</event-sheet>
+        <event-sheet>Variaveis.xml</event-sheet>
+        <event-sheet>Menu.xml</event-sheet>
+        <event-sheet>Jogo1.xml</event-sheet>
+        <event-sheet>Jogo2.xml</event-sheet>
+        <event-sheet>Jogo3.xml</event-sheet>
+        <event-sheet>Jogo4.xml</event-sheet>
+        <event-sheet>Jogo5.xml</event-sheet>
+        <event-sheet>Jogo6.xml</event-sheet>
+        <event-sheet>Jogo7.xml</event-sheet>
+        <event-sheet>Loading.xml</event-sheet>
+        <event-sheet>Jogo8.xml</event-sheet>
+        <event-sheet>Jogo9.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="AJAX" uid="5" />
+        <global-instance type="Touch" uid="6">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
+        <global-instance type="Function" uid="12" />
+        <global-instance type="Audio" uid="42">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
+    </global-instances>
+    <sounds-folder>
+        <file name="fall.ogg" />
+        <file name="okay.ogg" />
+        <file name="Victory.ogg" />
+        <file name="CAT.ogg" />
+        <file name="Gunma-chanGambol.ogg" />
+        <file name="DOG.ogg" />
+    </sounds-folder>
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
