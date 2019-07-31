@@ -10,15 +10,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">Jogo9</layout>
-        <layout order="2">Jogo3</layout>
-        <layout order="3">Loading</layout>
-        <layout order="4">Login</layout>
-        <layout order="5">Jogo8</layout>
-        <layout order="6">Jogo7Fase3</layout>
-        <layout order="7">Jogo7Fase2</layout>
-        <layout active="1" order="8">Jogo7</layout>
-        <event-sheet order="1">Jogo9</event-sheet>
+        <layout order="1">Jogo9</layout>
+        <layout order="3">Jogo3</layout>
+        <event-sheet active="1" order="2">Jogo9</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -44,14 +38,14 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/Jogo7/Fase3/" />
         <folder expanded="0" path="object-folder/JogoTesteDiaNoite/" />
         <folder expanded="1" path="layout-folder/" />
-        <folder expanded="1" path="layout-folder/JogoEspaco/" />
-        <folder expanded="1" path="layout-folder/JogoCozinha/" />
+        <folder expanded="0" path="layout-folder/JogoEspaco/" />
+        <folder expanded="0" path="layout-folder/JogoCozinha/" />
         <folder expanded="1" path="layout-folder/JogoFormaGeometrico/" />
-        <folder expanded="1" path="layout-folder/JogoMeninoRoupa/" />
-        <folder expanded="1" path="layout-folder/JogoDescubraSom/" />
+        <folder expanded="0" path="layout-folder/JogoMeninoRoupa/" />
+        <folder expanded="0" path="layout-folder/JogoDescubraSom/" />
         <folder expanded="0" path="layout-folder/JogoLabirinto/" />
-        <folder expanded="1" path="layout-folder/JogoEstacoes/" />
-        <folder expanded="1" path="layout-folder/JogoDiaNoite/" />
+        <folder expanded="0" path="layout-folder/JogoEstacoes/" />
+        <folder expanded="0" path="layout-folder/JogoDiaNoite/" />
         <folder expanded="1" path="layout-folder/JogoDesmontar/" />
         <folder expanded="1" path="event-folder/" />
         <folder expanded="0" path="file-folder/" />
