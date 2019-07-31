@@ -142,7 +142,7 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="840758205382394" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Desenvolvimento\Android\Sprites_craftpix\BACKGROUD\+ que especial.jpg" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Valdeko\Google Drive\MaisQueEspecialConstruct\7c98045e-b8df-4b89-8eed-5417b87a2192.jpg" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -789,7 +789,7 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="326736862739341" speed="5">
-                        <frame duration="1" hotspotX="0.500511" hotspotY="0.500754" original-source="C:\Users\Valdeko\Google Drive\MaisQueEspecialConstruct\IncaGames.jpg" />
+                        <frame duration="1" hotspotX="0.500781" hotspotY="0.500581" original-source="C:\Users\Valdeko\Google Drive\MaisQueEspecialConstruct\bb715849-6bf3-4f47-badf-793f47366308.jpg" />
                     </animation>
                 </animation-folder>
             </object-type>
