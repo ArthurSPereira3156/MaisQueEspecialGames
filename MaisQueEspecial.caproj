@@ -142,7 +142,7 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="840758205382394" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Valdeko\Google Drive\MaisQueEspecialConstruct\7c98045e-b8df-4b89-8eed-5417b87a2192.jpg" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Desenvolvimento\Android\Sprites_craftpix\BACKGROUD\+ que especial.jpg" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -789,7 +789,7 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="326736862739341" speed="5">
-                        <frame duration="1" hotspotX="0.500781" hotspotY="0.500581" original-source="C:\Users\Valdeko\Google Drive\MaisQueEspecialConstruct\bb715849-6bf3-4f47-badf-793f47366308.jpg" />
+                        <frame duration="1" hotspotX="0.500511" hotspotY="0.500754" original-source="C:\Users\Valdeko\Google Drive\MaisQueEspecialConstruct\IncaGames.jpg" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -2895,33 +2895,6 @@
                     </frame>
                 </animation>
             </animation-folder>
-        </object-type>
-        <object-type name="J1EstrelaAmarela2" sid="375819383330162">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="DragDrop" sid="200227791754316">
-                    <behavior id="DragnDrop" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="401043714133205" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Desenvolvimento\Android\Sprites_craftpix\GUI\craftpix-667109-racing-gui\PNG\Buttons\Forward_BTN.png">
-                        <collision-poly>
-                            <point x="0.298828" y="0.298828" />
-                            <point x="0.5" y="0.0214844" />
-                            <point x="0.701172" y="0.298828" />
-                            <point x="0.931641" y="0.5" />
-                            <point x="0.822266" y="0.822266" />
-                            <point x="0.5" y="0.853516" />
-                            <point x="0.177734" y="0.822266" />
-                            <point x="0.0683594" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type global="1" name="Destroy" sid="305659603110494">
-            <plugin id="Arr" />
         </object-type>
     </object-folder>
     <families />
