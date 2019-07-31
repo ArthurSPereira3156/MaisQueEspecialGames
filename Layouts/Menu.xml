@@ -158,7 +158,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="J1EstrelaAmarela2" uid="255">
+                <instance type="BtnProximaTela" uid="255">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -176,8 +176,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1201</x>
-                        <y>418</y>
+                        <x>1195</x>
+                        <y>412</y>
                         <z>0</z>
                         <width>146.059341431</width>
                         <height>148.980529785</height>

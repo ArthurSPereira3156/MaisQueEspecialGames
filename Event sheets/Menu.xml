@@ -212,7 +212,7 @@
         <event-block sid="691240215815390">
             <conditions>
                 <condition id="3" name="On touched object" sid="704262955490685" type="Touch">
-                    <param id="0" name="Object">J1EstrelaAmarela2</param>
+                    <param id="0" name="Object">BtnProximaTela</param>
                 </condition>
             </conditions>
             <actions>
