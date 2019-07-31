@@ -246,5 +246,22 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="856621946897254">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="447214979838787" type="ObjetosColoridos" />
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="721148488618134" type="ObjetosColoridos">
+                    <param id="0" name="X">73</param>
+                    <param id="1" name="Y">651</param>
+                </action>
+                <action id="0" name="Play" sid="659806712604600" type="Audio">
+                    <param id="0" name="Audio file">fall</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

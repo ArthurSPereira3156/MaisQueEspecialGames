@@ -158,6 +158,36 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="J1EstrelaAmarela2" uid="255">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="DragDrop">
+                            <properties>
+                                <axes>Both</axes>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1201</x>
+                        <y>418</y>
+                        <z>0</z>
+                        <width>146.059341431</width>
+                        <height>148.980529785</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
             </instances>
             <effects />
         </layer>
@@ -269,6 +299,13 @@
             <properties>
                 <width>10</width>
                 <height>1</height>
+                <depth>1</depth>
+            </properties>
+        </instance>
+        <instance type="Destroy" uid="256">
+            <properties>
+                <width>6</width>
+                <height>2</height>
                 <depth>1</depth>
             </properties>
         </instance>

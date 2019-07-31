@@ -9,6 +9,8 @@
         <variable constant="0" name="CardPositionX" sid="260619273987142" static="0" type="number">263</variable>
         <variable constant="0" name="CardPositionY" sid="425895671430317" static="0" type="number">280</variable>
         <variable constant="0" name="CardNextX" sid="508077376961237" static="0" type="number">375</variable>
+        <variable constant="0" name="MenuIniti" sid="230329600681873" static="0" type="number">0</variable>
+        <variable constant="0" name="MenuFim" sid="235275589781798" static="0" type="number">6</variable>
         <variable constant="0" name="CardNextY" sid="598477243519542" static="0" type="number">320</variable>
         <variable constant="0" name="postaData" sid="984285603358828" static="0" type="text">{&quot;login&quot;:&quot;ramon&quot;, &quot;jogo&quot;:&quot;1&quot;, &quot;tempo&quot;:&quot;4&quot;, &quot;tentativas&quot;:&quot;3&quot;}</variable>
         <event-block sid="211868957702240">
