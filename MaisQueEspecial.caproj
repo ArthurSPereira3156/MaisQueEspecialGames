@@ -2567,152 +2567,10 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="ObjetosCinza" sid="421029790024762">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="7" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="859772299545381" speed="0">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Fox\L_Ear.png">
-                        <collision-poly>
-                            <point x="0.524845" y="0.249263" />
-                            <point x="0.5" y="0.262537" />
-                            <point x="0.913043" y="0.0412979" />
-                            <point x="0.984472" y="0.5" />
-                            <point x="0.798137" y="0.90413" />
-                            <point x="0.5" y="0.988201" />
-                            <point x="0.251553" y="0.880531" />
-                            <point x="0.0186335" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Fox\R_Ear.png">
-                        <collision-poly>
-                            <point x="0.0869565" y="0.0412979" />
-                            <point x="0.5" y="0.264012" />
-                            <point x="0.475155" y="0.249263" />
-                            <point x="0.981366" y="0.5" />
-                            <point x="0.751553" y="0.882006" />
-                            <point x="0.5" y="0.988201" />
-                            <point x="0.201863" y="0.90413" />
-                            <point x="0.0186335" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Fox\Face.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Fox\Brows.png">
-                        <collision-poly>
-                            <point x="0.0229008" y="0.15" />
-                            <point x="0.977099" y="0.15" />
-                            <point x="0.996183" y="0.5" />
-                            <point x="0.969466" y="0.8" />
-                            <point x="0.0305344" y="0.8" />
-                            <point x="0" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Fox\Head.png">
-                        <collision-poly>
-                            <point x="0.217489" y="0.322259" />
-                            <point x="0.5" y="0.00166113" />
-                            <point x="0.783632" y="0.320598" />
-                            <point x="0.880045" y="0.822259" />
-                            <point x="0.5" y="1" />
-                            <point x="0.119955" y="0.822259" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Fox\Hair.png">
-                        <collision-poly>
-                            <point x="0.203846" y="0.420635" />
-                            <point x="0.5" y="0.261905" />
-                            <point x="0.880769" y="0.246032" />
-                            <point x="0.984615" y="0.5" />
-                            <point x="0.880769" y="0.753968" />
-                            <point x="0.5" y="0.992063" />
-                            <point x="0.130769" y="0.730159" />
-                            <point x="0.142308" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Fox\Eyes.png" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="ObjetosColoridos" sid="331031479831886">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="DragDrop" sid="186565777373698">
-                    <behavior id="DragnDrop" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="7" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="749963413599558" speed="0">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Fox\Face.png">
-                        <collision-poly>
-                            <point x="0.524845" y="0.249263" />
-                            <point x="0.5" y="0.262537" />
-                            <point x="0.913043" y="0.0412979" />
-                            <point x="0.984472" y="0.5" />
-                            <point x="0.798137" y="0.90413" />
-                            <point x="0.5" y="0.988201" />
-                            <point x="0.251553" y="0.880531" />
-                            <point x="0.0186335" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Fox\R_Ear.png">
-                        <collision-poly>
-                            <point x="0.0869565" y="0.0412979" />
-                            <point x="0.5" y="0.264012" />
-                            <point x="0.475155" y="0.249263" />
-                            <point x="0.981366" y="0.5" />
-                            <point x="0.751553" y="0.882006" />
-                            <point x="0.5" y="0.988201" />
-                            <point x="0.201863" y="0.90413" />
-                            <point x="0.0186335" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Fox\Face.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Fox\Brows.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Fox\Head.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Fox\Hair.png">
-                        <collision-poly>
-                            <point x="0.203846" y="0.420635" />
-                            <point x="0.5" y="0.261905" />
-                            <point x="0.880769" y="0.246032" />
-                            <point x="0.984615" y="0.5" />
-                            <point x="0.880769" y="0.753968" />
-                            <point x="0.5" y="0.992063" />
-                            <point x="0.130769" y="0.730159" />
-                            <point x="0.142308" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Fox\Eyes.png" />
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="SOmbrancelhaCinza" sid="528822601189393">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="7" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="537464402927737" speed="0">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Fox\L_Ear.png">
-                        <collision-poly>
-                            <point x="0.524845" y="0.249263" />
-                            <point x="0.5" y="0.262537" />
-                            <point x="0.913043" y="0.0412979" />
-                            <point x="0.984472" y="0.5" />
-                            <point x="0.798137" y="0.90413" />
-                            <point x="0.5" y="0.988201" />
-                            <point x="0.251553" y="0.880531" />
-                            <point x="0.0186335" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Fox\R_Ear.png">
-                        <collision-poly>
-                            <point x="0.0869565" y="0.0412979" />
-                            <point x="0.5" y="0.264012" />
-                            <point x="0.475155" y="0.249263" />
-                            <point x="0.981366" y="0.5" />
-                            <point x="0.751553" y="0.882006" />
-                            <point x="0.5" y="0.988201" />
-                            <point x="0.201863" y="0.90413" />
-                            <point x="0.0186335" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Fox\Face.png" />
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="537464402927737" speed="0">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Fox\Brows.png">
                         <collision-poly>
                             <point x="0.0229008" y="0.15" />
@@ -2723,37 +2581,14 @@
                             <point x="0" y="0.5" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Fox\Head.png">
-                        <collision-poly>
-                            <point x="0.217489" y="0.322259" />
-                            <point x="0.5" y="0.00166113" />
-                            <point x="0.783632" y="0.320598" />
-                            <point x="0.880045" y="0.822259" />
-                            <point x="0.5" y="1" />
-                            <point x="0.119955" y="0.822259" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Fox\Hair.png">
-                        <collision-poly>
-                            <point x="0.203846" y="0.420635" />
-                            <point x="0.5" y="0.261905" />
-                            <point x="0.880769" y="0.246032" />
-                            <point x="0.984615" y="0.5" />
-                            <point x="0.880769" y="0.753968" />
-                            <point x="0.5" y="0.992063" />
-                            <point x="0.130769" y="0.730159" />
-                            <point x="0.142308" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Fox\Eyes.png" />
                 </animation>
             </animation-folder>
         </object-type>
         <object-type name="OrelhaEsquerdaCinza" sid="396748712966847">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="493044199931254" speed="0">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Fox\R_Ear.png">
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="493044199931254" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Mouse\R_Ear.png">
                         <collision-poly>
                             <point x="0.0869565" y="0.0412979" />
                             <point x="0.5" y="0.264012" />
@@ -2763,6 +2598,18 @@
                             <point x="0.5" y="0.988201" />
                             <point x="0.201863" y="0.90413" />
                             <point x="0.0186335" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.502747" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Mouse\R_Ear.png">
+                        <collision-poly>
+                            <point x="0.0796703" y="0.0788044" />
+                            <point x="0.5" y="0.157609" />
+                            <point x="0.648352" y="0.347826" />
+                            <point x="0.96978" y="0.5" />
+                            <point x="0.848901" y="0.850543" />
+                            <point x="0.5" y="0.972826" />
+                            <point x="0.175824" y="0.826087" />
+                            <point x="0.0164835" y="0.5" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -2817,69 +2664,12 @@
         <object-type name="BocaCinza" sid="743420285144086">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="7" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="240244132420231" speed="0">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Fox\L_Ear.png">
-                        <collision-poly>
-                            <point x="0.524845" y="0.249263" />
-                            <point x="0.5" y="0.262537" />
-                            <point x="0.913043" y="0.0412979" />
-                            <point x="0.984472" y="0.5" />
-                            <point x="0.798137" y="0.90413" />
-                            <point x="0.5" y="0.988201" />
-                            <point x="0.251553" y="0.880531" />
-                            <point x="0.0186335" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Fox\R_Ear.png">
-                        <collision-poly>
-                            <point x="0.0869565" y="0.0412979" />
-                            <point x="0.5" y="0.264012" />
-                            <point x="0.475155" y="0.249263" />
-                            <point x="0.981366" y="0.5" />
-                            <point x="0.751553" y="0.882006" />
-                            <point x="0.5" y="0.988201" />
-                            <point x="0.201863" y="0.90413" />
-                            <point x="0.0186335" y="0.5" />
-                        </collision-poly>
-                    </frame>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="240244132420231" speed="0">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Fox\Face.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Fox\Brows.png">
-                        <collision-poly>
-                            <point x="0.0229008" y="0.15" />
-                            <point x="0.977099" y="0.15" />
-                            <point x="0.996183" y="0.5" />
-                            <point x="0.969466" y="0.8" />
-                            <point x="0.0305344" y="0.8" />
-                            <point x="0" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Fox\Head.png">
-                        <collision-poly>
-                            <point x="0.217489" y="0.322259" />
-                            <point x="0.5" y="0.00166113" />
-                            <point x="0.783632" y="0.320598" />
-                            <point x="0.880045" y="0.822259" />
-                            <point x="0.5" y="1" />
-                            <point x="0.119955" y="0.822259" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Fox\Hair.png">
-                        <collision-poly>
-                            <point x="0.203846" y="0.420635" />
-                            <point x="0.5" y="0.261905" />
-                            <point x="0.880769" y="0.246032" />
-                            <point x="0.984615" y="0.5" />
-                            <point x="0.880769" y="0.753968" />
-                            <point x="0.5" y="0.992063" />
-                            <point x="0.130769" y="0.730159" />
-                            <point x="0.142308" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Fox\Eyes.png" />
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="ObjetosCinza2" sid="541837951418220">
+        <object-type name="CaraCinza" sid="541837951418220">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="836557048184746" speed="0">
@@ -2923,6 +2713,142 @@
         <object-type global="1" name="Destroy" sid="305659603110494">
             <plugin id="Arr" />
         </object-type>
+        <object-type name="OrelhaEsquerdaColorida" sid="550875465106894">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DragDrop" sid="351262831713688">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="135696625569532" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Fox\R_Ear.png">
+                        <collision-poly>
+                            <point x="0.0869565" y="0.0412979" />
+                            <point x="0.5" y="0.264012" />
+                            <point x="0.475155" y="0.249263" />
+                            <point x="0.981366" y="0.5" />
+                            <point x="0.751553" y="0.882006" />
+                            <point x="0.5" y="0.988201" />
+                            <point x="0.201863" y="0.90413" />
+                            <point x="0.0186335" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.502747" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Mouse\R_Ear.png">
+                        <collision-poly>
+                            <point x="0.0796703" y="0.0788044" />
+                            <point x="0.5" y="0.157609" />
+                            <point x="0.648352" y="0.347826" />
+                            <point x="0.96978" y="0.5" />
+                            <point x="0.848901" y="0.850543" />
+                            <point x="0.5" y="0.972826" />
+                            <point x="0.175824" y="0.826087" />
+                            <point x="0.0164835" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="OrelhaDireitaColorida" sid="673762368203868">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DragDrop" sid="699666167512329">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="366350081855423" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Fox\Face.png">
+                        <collision-poly>
+                            <point x="0.524845" y="0.249263" />
+                            <point x="0.5" y="0.262537" />
+                            <point x="0.913043" y="0.0412979" />
+                            <point x="0.984472" y="0.5" />
+                            <point x="0.798137" y="0.90413" />
+                            <point x="0.5" y="0.988201" />
+                            <point x="0.251553" y="0.880531" />
+                            <point x="0.0186335" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BocaColorida" sid="215028267997224">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DragDrop" sid="964980955779004">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="303530682338854" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Fox\Face.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SombrancelhaColorida" sid="626298162227944">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DragDrop" sid="839779981627852">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="425585314908939" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Fox\Brows.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="CaraColorida" sid="931389327208045">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DragDrop" sid="960023301304834">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="321408535570350" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Fox\Head.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="CabeloColorido" sid="956674602358311">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DragDrop" sid="290060020178537">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="289734980581122" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Fox\Hair.png">
+                        <collision-poly>
+                            <point x="0.203846" y="0.420635" />
+                            <point x="0.5" y="0.261905" />
+                            <point x="0.880769" y="0.246032" />
+                            <point x="0.984615" y="0.5" />
+                            <point x="0.880769" y="0.753968" />
+                            <point x="0.5" y="0.992063" />
+                            <point x="0.130769" y="0.730159" />
+                            <point x="0.142308" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="OlhosColoridos" sid="754460195108100">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DragDrop" sid="735590403821103">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="446743369582484" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Fox\Eyes.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -2955,6 +2881,7 @@
         </layout-folder>
         <layout-folder name="JogoDesmontar">
             <layout>Jogo9.xml</layout>
+            <layout>Jogo9Fase2.xml</layout>
         </layout-folder>
         <layout>Login.xml</layout>
         <layout>Loading.xml</layout>

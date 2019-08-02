@@ -6,12 +6,8 @@
         <comment>Inicio Orelha Direita</comment>
         <event-block sid="446294063594060">
             <conditions>
-                <condition id="1" name="Is overlapping another object" sid="188318573686778" type="ObjetosColoridos">
+                <condition id="1" name="Is overlapping another object" sid="188318573686778" type="OrelhaDireitaColorida">
                     <param id="0" name="Object">OrelhaDireitaCinza</param>
-                </condition>
-                <condition id="3" name="Compare frame" sid="409841451144536" type="ObjetosColoridos">
-                    <param id="0" name="Comparison">0</param>
-                    <param id="1" name="Number">0</param>
                 </condition>
             </conditions>
             <actions>
@@ -21,30 +17,36 @@
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
-                <action id="-15" name="Set visible" sid="274227848069986" type="OrelhaDireitaCinza">
-                    <param id="0" name="Visibility">1</param>
-                </action>
-                <action id="-9" name="Destroy" sid="360113430977466" type="ObjetosColoridos" />
                 <action id="-10" name="Add to" sid="302818335112773" type="System">
                     <param id="0" name="Variable">Pontos</param>
                     <param id="1" name="Value">1</param>
                 </action>
+                <action id="-15" name="Set visible" sid="220031681822100" type="OrelhaDireitaCinza">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-9" name="Destroy" sid="913520157814306" type="OrelhaDireitaColorida" />
             </actions>
         </event-block>
         <event-block sid="938608652961469">
             <conditions>
-                <condition behavior="DragDrop" id="2" name="On drop" sid="395512720555643" type="ObjetosColoridos" />
+                <condition behavior="DragDrop" id="2" name="On drop" sid="395512720555643" type="OrelhaDireitaColorida" />
             </conditions>
             <actions />
             <sub-events>
                 <event-block sid="803191344472436">
                     <conditions>
-                        <condition id="1" inverted="1" name="Is overlapping another object" sid="967054677276214" type="ObjetosColoridos">
+                        <condition id="1" inverted="1" name="Is overlapping another object" sid="967054677276214" type="OrelhaDireitaColorida">
                             <param id="0" name="Object">OrelhaDireitaCinza</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-3" name="Set position" sid="327082420805913" type="ObjetosColoridos">
+                        <action id="0" name="Play" sid="185324767599427" type="Audio">
+                            <param id="0" name="Audio file">fall</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="327082420805913" type="OrelhaDireitaColorida">
                             <param id="0" name="X">193</param>
                             <param id="1" name="Y">220</param>
                         </action>
@@ -56,12 +58,8 @@
         <comment>Inicio Cabeça</comment>
         <event-block sid="927986490183480">
             <conditions>
-                <condition id="1" name="Is overlapping another object" sid="129602491825791" type="ObjetosColoridos">
-                    <param id="0" name="Object">ObjetosCinza2</param>
-                </condition>
-                <condition id="3" name="Compare frame" sid="722535201066931" type="ObjetosColoridos">
-                    <param id="0" name="Comparison">0</param>
-                    <param id="1" name="Number">4</param>
+                <condition id="1" name="Is overlapping another object" sid="129602491825791" type="CaraColorida">
+                    <param id="0" name="Object">CaraCinza</param>
                 </condition>
             </conditions>
             <actions>
@@ -71,10 +69,10 @@
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
-                <action id="-15" name="Set visible" sid="519356270448879" type="ObjetosCinza2">
+                <action id="-15" name="Set visible" sid="519356270448879" type="CaraCinza">
                     <param id="0" name="Visibility">1</param>
                 </action>
-                <action id="-9" name="Destroy" sid="416903930553572" type="ObjetosColoridos" />
+                <action id="-9" name="Destroy" sid="416903930553572" type="CaraColorida" />
                 <action id="-10" name="Add to" sid="884449454087806" type="System">
                     <param id="0" name="Variable">Pontos</param>
                     <param id="1" name="Value">1</param>
@@ -83,20 +81,26 @@
         </event-block>
         <event-block sid="535985083528959">
             <conditions>
-                <condition behavior="DragDrop" id="2" name="On drop" sid="823206764549544" type="ObjetosColoridos" />
+                <condition behavior="DragDrop" id="2" name="On drop" sid="823206764549544" type="CaraColorida" />
             </conditions>
             <actions />
             <sub-events>
                 <event-block sid="604594741387234">
                     <conditions>
-                        <condition id="1" inverted="1" name="Is overlapping another object" sid="673513153894698" type="ObjetosColoridos">
-                            <param id="0" name="Object">ObjetosCinza2</param>
+                        <condition id="1" inverted="1" name="Is overlapping another object" sid="673513153894698" type="CaraColorida">
+                            <param id="0" name="Object">CaraCinza</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-3" name="Set position" sid="420251477695068" type="ObjetosColoridos">
+                        <action id="-3" name="Set position" sid="420251477695068" type="CaraColorida">
                             <param id="0" name="X">118</param>
                             <param id="1" name="Y">499</param>
+                        </action>
+                        <action id="0" name="Play" sid="464991552244907" type="Audio">
+                            <param id="0" name="Audio file">fall</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -106,12 +110,8 @@
         <comment>Inicio Orelha Esquerda</comment>
         <event-block sid="280313309911799">
             <conditions>
-                <condition id="1" name="Is overlapping another object" sid="962148100175556" type="ObjetosColoridos">
+                <condition id="1" name="Is overlapping another object" sid="962148100175556" type="OrelhaEsquerdaColorida">
                     <param id="0" name="Object">OrelhaEsquerdaCinza</param>
-                </condition>
-                <condition id="3" name="Compare frame" sid="654533702971972" type="ObjetosColoridos">
-                    <param id="0" name="Comparison">0</param>
-                    <param id="1" name="Number">1</param>
                 </condition>
             </conditions>
             <actions>
@@ -124,7 +124,7 @@
                 <action id="-15" name="Set visible" sid="332222309784788" type="OrelhaEsquerdaCinza">
                     <param id="0" name="Visibility">1</param>
                 </action>
-                <action id="-9" name="Destroy" sid="236524883755942" type="ObjetosColoridos" />
+                <action id="-9" name="Destroy" sid="236524883755942" type="OrelhaEsquerdaColorida" />
                 <action id="-10" name="Add to" sid="950169183975004" type="System">
                     <param id="0" name="Variable">Pontos</param>
                     <param id="1" name="Value">1</param>
@@ -133,35 +133,37 @@
         </event-block>
         <event-block sid="460559336422507">
             <conditions>
-                <condition behavior="DragDrop" id="2" name="On drop" sid="415646095828642" type="ObjetosColoridos" />
+                <condition behavior="DragDrop" id="2" name="On drop" sid="415646095828642" type="OrelhaEsquerdaColorida" />
             </conditions>
             <actions />
             <sub-events>
                 <event-block sid="809879991125813">
                     <conditions>
-                        <condition id="1" inverted="1" name="Is overlapping another object" sid="167137130301376" type="ObjetosColoridos">
+                        <condition id="1" inverted="1" name="Is overlapping another object" sid="167137130301376" type="OrelhaEsquerdaColorida">
                             <param id="0" name="Object">OrelhaEsquerdaCinza</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-3" name="Set position" sid="854757175431914" type="ObjetosColoridos">
+                        <action id="-3" name="Set position" sid="854757175431914" type="OrelhaEsquerdaColorida">
                             <param id="0" name="X">56</param>
                             <param id="1" name="Y">78</param>
+                        </action>
+                        <action id="0" name="Play" sid="684788187195340" type="Audio">
+                            <param id="0" name="Audio file">fall</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                     </actions>
                 </event-block>
             </sub-events>
         </event-block>
         <comment>Fim Orelha Esquerda</comment>
-        <comment>Inicio Nariz</comment>
+        <comment>Inicio Boca</comment>
         <event-block sid="681023118974884">
             <conditions>
-                <condition id="1" name="Is overlapping another object" sid="246756113724770" type="ObjetosColoridos">
+                <condition id="1" name="Is overlapping another object" sid="246756113724770" type="BocaColorida">
                     <param id="0" name="Object">BocaCinza</param>
-                </condition>
-                <condition id="3" name="Compare frame" sid="209734966623869" type="ObjetosColoridos">
-                    <param id="0" name="Comparison">0</param>
-                    <param id="1" name="Number">2</param>
                 </condition>
             </conditions>
             <actions>
@@ -174,7 +176,7 @@
                 <action id="-15" name="Set visible" sid="550579277761778" type="BocaCinza">
                     <param id="0" name="Visibility">1</param>
                 </action>
-                <action id="-9" name="Destroy" sid="836826214903545" type="ObjetosColoridos" />
+                <action id="-9" name="Destroy" sid="836826214903545" type="BocaColorida" />
                 <action id="-10" name="Add to" sid="411123773573257" type="System">
                     <param id="0" name="Variable">Pontos</param>
                     <param id="1" name="Value">1</param>
@@ -183,35 +185,37 @@
         </event-block>
         <event-block sid="378236857219356">
             <conditions>
-                <condition behavior="DragDrop" id="2" name="On drop" sid="637599803332604" type="ObjetosColoridos" />
+                <condition behavior="DragDrop" id="2" name="On drop" sid="637599803332604" type="BocaColorida" />
             </conditions>
             <actions />
             <sub-events>
                 <event-block sid="192892874824363">
                     <conditions>
-                        <condition id="1" inverted="1" name="Is overlapping another object" sid="581521284003109" type="ObjetosColoridos">
+                        <condition id="1" inverted="1" name="Is overlapping another object" sid="581521284003109" type="BocaColorida">
                             <param id="0" name="Object">BocaCinza</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-3" name="Set position" sid="576752641282249" type="ObjetosColoridos">
+                        <action id="-3" name="Set position" sid="576752641282249" type="BocaColorida">
                             <param id="0" name="X">66</param>
                             <param id="1" name="Y">281</param>
+                        </action>
+                        <action id="0" name="Play" sid="725331864799938" type="Audio">
+                            <param id="0" name="Audio file">fall</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                     </actions>
                 </event-block>
             </sub-events>
         </event-block>
-        <comment>Fim Nariz</comment>
+        <comment>Fim Boca</comment>
         <comment>Inicio Sombrancelha</comment>
         <event-block sid="224441910803357">
             <conditions>
-                <condition id="1" name="Is overlapping another object" sid="292542098974172" type="ObjetosColoridos">
+                <condition id="1" name="Is overlapping another object" sid="292542098974172" type="SombrancelhaColorida">
                     <param id="0" name="Object">SOmbrancelhaCinza</param>
-                </condition>
-                <condition id="3" name="Compare frame" sid="330777809468894" type="ObjetosColoridos">
-                    <param id="0" name="Comparison">0</param>
-                    <param id="1" name="Number">3</param>
                 </condition>
             </conditions>
             <actions>
@@ -224,7 +228,7 @@
                 <action id="-15" name="Set visible" sid="438949237883441" type="SOmbrancelhaCinza">
                     <param id="0" name="Visibility">1</param>
                 </action>
-                <action id="-9" name="Destroy" sid="702365873578998" type="ObjetosColoridos" />
+                <action id="-9" name="Destroy" sid="702365873578998" type="SombrancelhaColorida" />
                 <action id="-10" name="Add to" sid="106320228796788" type="System">
                     <param id="0" name="Variable">Pontos</param>
                     <param id="1" name="Value">1</param>
@@ -233,20 +237,26 @@
         </event-block>
         <event-block sid="853574140541564">
             <conditions>
-                <condition behavior="DragDrop" id="2" name="On drop" sid="257650136181007" type="ObjetosColoridos" />
+                <condition behavior="DragDrop" id="2" name="On drop" sid="257650136181007" type="SombrancelhaColorida" />
             </conditions>
             <actions />
             <sub-events>
                 <event-block sid="658223737423207">
                     <conditions>
-                        <condition id="1" inverted="1" name="Is overlapping another object" sid="556452987933557" type="ObjetosColoridos">
+                        <condition id="1" inverted="1" name="Is overlapping another object" sid="556452987933557" type="SombrancelhaColorida">
                             <param id="0" name="Object">SOmbrancelhaCinza</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-3" name="Set position" sid="103751983529446" type="ObjetosColoridos">
+                        <action id="-3" name="Set position" sid="103751983529446" type="SombrancelhaColorida">
                             <param id="0" name="X">175</param>
                             <param id="1" name="Y">381</param>
+                        </action>
+                        <action id="0" name="Play" sid="631357101313100" type="Audio">
+                            <param id="0" name="Audio file">fall</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -256,12 +266,8 @@
         <comment>Inicio Cabelo</comment>
         <event-block sid="284346193261074">
             <conditions>
-                <condition id="1" name="Is overlapping another object" sid="865141424369538" type="ObjetosColoridos">
+                <condition id="1" name="Is overlapping another object" sid="865141424369538" type="CabeloColorido">
                     <param id="0" name="Object">CabeloCinza</param>
-                </condition>
-                <condition id="3" name="Compare frame" sid="554260379114456" type="ObjetosColoridos">
-                    <param id="0" name="Comparison">0</param>
-                    <param id="1" name="Number">5</param>
                 </condition>
             </conditions>
             <actions>
@@ -274,7 +280,7 @@
                 <action id="-15" name="Set visible" sid="220003576348071" type="CabeloCinza">
                     <param id="0" name="Visibility">1</param>
                 </action>
-                <action id="-9" name="Destroy" sid="441170170835739" type="ObjetosColoridos" />
+                <action id="-9" name="Destroy" sid="441170170835739" type="CabeloColorido" />
                 <action id="-10" name="Add to" sid="751670773879086" type="System">
                     <param id="0" name="Variable">Pontos</param>
                     <param id="1" name="Value">1</param>
@@ -283,20 +289,26 @@
         </event-block>
         <event-block sid="724291616862546">
             <conditions>
-                <condition behavior="DragDrop" id="2" name="On drop" sid="246243935550891" type="ObjetosColoridos" />
+                <condition behavior="DragDrop" id="2" name="On drop" sid="246243935550891" type="CabeloColorido" />
             </conditions>
             <actions />
             <sub-events>
                 <event-block sid="446920598170688">
                     <conditions>
-                        <condition id="1" inverted="1" name="Is overlapping another object" sid="722139133209186" type="ObjetosColoridos">
+                        <condition id="1" inverted="1" name="Is overlapping another object" sid="722139133209186" type="CabeloColorido">
                             <param id="0" name="Object">CabeloCinza</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-3" name="Set position" sid="930324205661813" type="ObjetosColoridos">
-                            <param id="0" name="X">73</param>
-                            <param id="1" name="Y">651</param>
+                        <action id="-3" name="Set position" sid="930324205661813" type="CabeloColorido">
+                            <param id="0" name="X">151</param>
+                            <param id="1" name="Y">627</param>
+                        </action>
+                        <action id="0" name="Play" sid="534661665622309" type="Audio">
+                            <param id="0" name="Audio file">fall</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -306,12 +318,8 @@
         <comment>Inicio Olhos</comment>
         <event-block sid="718292962470620">
             <conditions>
-                <condition id="1" name="Is overlapping another object" sid="257663396962249" type="ObjetosColoridos">
+                <condition id="1" name="Is overlapping another object" sid="257663396962249" type="OlhosColoridos">
                     <param id="0" name="Object">OlhsCinza</param>
-                </condition>
-                <condition id="3" name="Compare frame" sid="671857188066567" type="ObjetosColoridos">
-                    <param id="0" name="Comparison">0</param>
-                    <param id="1" name="Number">6</param>
                 </condition>
             </conditions>
             <actions>
@@ -324,7 +332,7 @@
                 <action id="-15" name="Set visible" sid="764058495145002" type="OlhsCinza">
                     <param id="0" name="Visibility">1</param>
                 </action>
-                <action id="-9" name="Destroy" sid="870574846484684" type="ObjetosColoridos" />
+                <action id="-9" name="Destroy" sid="870574846484684" type="OlhosColoridos" />
                 <action id="-10" name="Add to" sid="728929073341855" type="System">
                     <param id="0" name="Variable">Pontos</param>
                     <param id="1" name="Value">1</param>
@@ -333,20 +341,26 @@
         </event-block>
         <event-block sid="169348791467124">
             <conditions>
-                <condition behavior="DragDrop" id="2" name="On drop" sid="999517098035808" type="ObjetosColoridos" />
+                <condition behavior="DragDrop" id="2" name="On drop" sid="999517098035808" type="OlhosColoridos" />
             </conditions>
             <actions />
             <sub-events>
                 <event-block sid="249010816666029">
                     <conditions>
-                        <condition id="1" inverted="1" name="Is overlapping another object" sid="689666820883800" type="ObjetosColoridos">
+                        <condition id="1" inverted="1" name="Is overlapping another object" sid="689666820883800" type="OlhosColoridos">
                             <param id="0" name="Object">OlhsCinza</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-3" name="Set position" sid="175662607024377" type="ObjetosColoridos">
-                            <param id="0" name="X">73</param>
-                            <param id="1" name="Y">651</param>
+                        <action id="-3" name="Set position" sid="175662607024377" type="OlhosColoridos">
+                            <param id="0" name="X">114</param>
+                            <param id="1" name="Y">698</param>
+                        </action>
+                        <action id="0" name="Play" sid="299705901787252" type="Audio">
+                            <param id="0" name="Audio file">fall</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -363,6 +377,9 @@
                 <condition id="-4" name="Trigger once while true" sid="717513117588305" type="System" />
             </conditions>
             <actions>
+                <action id="-16" name="Wait" sid="932802311785583" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
                 <action id="33" name="Stop all" sid="108202165382497" type="Audio" />
                 <action id="-4" name="Set layer visible" sid="162352079828507" type="System">
                     <param id="0" name="Layer">2</param>
@@ -386,6 +403,38 @@
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="498438955743096">
+            <conditions>
+                <condition id="3" name="On touched object" sid="894891537482133" type="Touch">
+                    <param id="0" name="Object">GlobalRestart</param>
+                </condition>
+                <condition id="-9" name="Layer is visible" sid="505446022475639" type="System">
+                    <param id="0" name="Layer">2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-21" name="Reset global variables" sid="853626705523136" type="System" />
+                <action id="-26" name="Restart layout" sid="472494653063773" type="System" />
+                <action id="-4" name="Set layer visible" sid="898098844657170" type="System">
+                    <param id="0" name="Layer">2</param>
+                    <param id="1" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="162304999382181">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="334545692654218" type="System">
+                    <param id="0" name="Variable">Pontos</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">06</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="492355713404806" type="CaraColorida">
+                    <param id="0" name="State">1</param>
                 </action>
             </actions>
         </event-block>

@@ -11,8 +11,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout order="0">Jogo9</layout>
-        <event-sheet active="1" order="1">Jogo9</event-sheet>
-        <event-sheet order="2">Jogo2</event-sheet>
+        <layout active="1" order="2">Jogo9Fase2</layout>
+        <event-sheet order="1">Jogo9</event-sheet>
+        <event-sheet order="3">Variaveis</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -46,7 +47,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="layout-folder/JogoLabirinto/" />
         <folder expanded="0" path="layout-folder/JogoEstacoes/" />
         <folder expanded="0" path="layout-folder/JogoDiaNoite/" />
-        <folder expanded="0" path="layout-folder/JogoDesmontar/" />
+        <folder expanded="1" path="layout-folder/JogoDesmontar/" />
         <folder expanded="1" path="event-folder/" />
         <folder expanded="0" path="file-folder/" />
         <folder expanded="0" path="sound-folder/" />
@@ -171,15 +172,20 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/JTSolColorido/" />
         <folder expanded="1" path="animation-folder/Sprite5/" />
         <folder expanded="1" path="animation-folder/Sprite2/" />
-        <folder expanded="1" path="animation-folder/ObjetosCinza/" />
-        <folder expanded="1" path="animation-folder/ObjetosColoridos/" />
         <folder expanded="1" path="animation-folder/SOmbrancelhaCinza/" />
         <folder expanded="1" path="animation-folder/OrelhaEsquerdaCinza/" />
         <folder expanded="1" path="animation-folder/OrelhaDireitaCinza/" />
         <folder expanded="1" path="animation-folder/CabeloCinza/" />
         <folder expanded="1" path="animation-folder/OlhsCinza/" />
         <folder expanded="1" path="animation-folder/BocaCinza/" />
-        <folder expanded="1" path="animation-folder/ObjetosCinza2/" />
+        <folder expanded="1" path="animation-folder/CaraCinza/" />
         <folder expanded="1" path="animation-folder/BtnProximaTela/" />
+        <folder expanded="1" path="animation-folder/OrelhaEsquerdaColorida/" />
+        <folder expanded="1" path="animation-folder/OrelhaDireitaColorida/" />
+        <folder expanded="1" path="animation-folder/BocaColorida/" />
+        <folder expanded="1" path="animation-folder/SombrancelhaColorida/" />
+        <folder expanded="1" path="animation-folder/CaraColorida/" />
+        <folder expanded="1" path="animation-folder/CabeloColorido/" />
+        <folder expanded="1" path="animation-folder/OlhosColoridos/" />
     </folders-expanded>
 </c2uistate>
