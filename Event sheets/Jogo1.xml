@@ -4,6 +4,7 @@
     <name>Jogo1</name>
     <events>
         <include>Variaveis</include>
+        <variable constant="0" name="jogoAtual" sid="733377421225280" static="0" type="number">0</variable>
         <variable constant="0" name="Tentativas" sid="454328036930397" static="0" type="number">0</variable>
         <variable constant="0" name="Fim" sid="354410978413239" static="0" type="number">0</variable>
         <variable constant="0" name="Tempo" sid="848804734848914" static="0" type="number">0</variable>
@@ -359,6 +360,10 @@
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="0" name="Call function" sid="844089154744283" type="Function">
+                    <param id="0" name="Name">&quot;EnviaPontuacao&quot;</param>
+                    <param id="1" name="Parameter {n}">txtLogin.Text{###}jogoAtual{###}Tempo{###}Tentativas</param>
                 </action>
             </actions>
         </event-block>

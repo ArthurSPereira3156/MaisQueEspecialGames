@@ -2849,6 +2849,9 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type global="1" name="ReenviarPontos" sid="322377428777267">
+            <plugin id="Arr" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
