@@ -2570,7 +2570,7 @@
         <object-type name="SOmbrancelhaCinza" sid="528822601189393">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="537464402927737" speed="0">
+                <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="537464402927737" speed="0">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Fox\Brows.png">
                         <collision-poly>
                             <point x="0.0229008" y="0.15" />
@@ -2581,13 +2581,15 @@
                             <point x="0" y="0.5" />
                         </collision-poly>
                     </frame>
+                    <frame duration="1" hotspotX="0.501475" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Mouse\Brows.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Pig\Brows.png" />
                 </animation>
             </animation-folder>
         </object-type>
         <object-type name="OrelhaEsquerdaCinza" sid="396748712966847">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="493044199931254" speed="0">
+                <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="493044199931254" speed="0">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Mouse\R_Ear.png">
                         <collision-poly>
                             <point x="0.0869565" y="0.0412979" />
@@ -2612,13 +2614,14 @@
                             <point x="0.0164835" y="0.5" />
                         </collision-poly>
                     </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Pig\R_Ear.png" />
                 </animation>
             </animation-folder>
         </object-type>
         <object-type name="OrelhaDireitaCinza" sid="267873827793748">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="592525739788457" speed="0">
+                <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="592525739788457" speed="0">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Fox\L_Ear.png">
                         <collision-poly>
                             <point x="0.524845" y="0.249263" />
@@ -2631,6 +2634,8 @@
                             <point x="0.0186335" y="0.5" />
                         </collision-poly>
                     </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Mouse\L_Ear.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Pig\L_Ear.png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -2656,23 +2661,38 @@
         <object-type name="OlhsCinza" sid="521628581160780">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="580963599633677" speed="0">
+                <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="580963599633677" speed="0">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Fox\Eyes.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Mouse\Eyes.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Pig\Eyes.png" />
                 </animation>
             </animation-folder>
         </object-type>
         <object-type name="BocaCinza" sid="743420285144086">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="240244132420231" speed="0">
+                <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="240244132420231" speed="0">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Fox\Face.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Mouse\Face.png">
+                        <collision-poly>
+                            <point x="0.0814978" y="0.23125" />
+                            <point x="0.5" y="0.00625" />
+                            <point x="0.918502" y="0.23125" />
+                            <point x="1" y="0.5" />
+                            <point x="0.920705" y="0.775" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0814978" y="0.76875" />
+                            <point x="0.00220264" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Pig\Face.png" />
                 </animation>
             </animation-folder>
         </object-type>
         <object-type name="CaraCinza" sid="541837951418220">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="836557048184746" speed="0">
+                <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="836557048184746" speed="0">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Fox\Head.png">
                         <collision-poly>
                             <point x="0.217489" y="0.322259" />
@@ -2683,6 +2703,8 @@
                             <point x="0.119955" y="0.822259" />
                         </collision-poly>
                     </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Mouse\Head.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Pig\Head.png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -2721,7 +2743,7 @@
                 </behavior-type>
             </behaviors>
             <animation-folder>
-                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="135696625569532" speed="0">
+                <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="135696625569532" speed="0">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Fox\R_Ear.png">
                         <collision-poly>
                             <point x="0.0869565" y="0.0412979" />
@@ -2746,6 +2768,7 @@
                             <point x="0.0164835" y="0.5" />
                         </collision-poly>
                     </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Pig\R_Ear.png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -2757,8 +2780,8 @@
                 </behavior-type>
             </behaviors>
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="366350081855423" speed="0">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Fox\Face.png">
+                <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="366350081855423" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Mouse\L_Ear.png">
                         <collision-poly>
                             <point x="0.524845" y="0.249263" />
                             <point x="0.5" y="0.262537" />
@@ -2770,6 +2793,8 @@
                             <point x="0.0186335" y="0.5" />
                         </collision-poly>
                     </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Mouse\L_Ear.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Pig\L_Ear.png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -2781,8 +2806,30 @@
                 </behavior-type>
             </behaviors>
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="303530682338854" speed="0">
+                <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="303530682338854" speed="0">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Fox\Face.png" />
+                    <frame duration="1" hotspotX="0.502304" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Mouse\Face.png">
+                        <collision-poly>
+                            <point x="0.222" y="0.140506" />
+                            <point x="0.5" y="0" />
+                            <point x="0.778" y="0.140506" />
+                            <point x="0.962" y="0.5" />
+                            <point x="0.86" y="0.911392" />
+                            <point x="0.5" y="1" />
+                            <point x="0.142" y="0.910127" />
+                            <point x="0.04" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Pig\Face.png">
+                        <collision-poly>
+                            <point x="0.115" y="0.117347" />
+                            <point x="0.5" y="0.00510204" />
+                            <point x="0.885" y="0.117347" />
+                            <point x="0.975" y="0.5" />
+                            <point x="0.5" y="1" />
+                            <point x="0.025" y="0.5" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -2794,8 +2841,10 @@
                 </behavior-type>
             </behaviors>
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="425585314908939" speed="0">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Fox\Brows.png" />
+                <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="425585314908939" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Mouse\Brows.png" />
+                    <frame duration="1" hotspotX="0.501475" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Mouse\Brows.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Pig\Brows.png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -2807,8 +2856,10 @@
                 </behavior-type>
             </behaviors>
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="321408535570350" speed="0">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Fox\Head.png" />
+                <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="321408535570350" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Mouse\Head.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Mouse\Head.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Pig\Head.png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -2844,8 +2895,10 @@
                 </behavior-type>
             </behaviors>
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="446743369582484" speed="0">
+                <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="446743369582484" speed="0">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Fox\Eyes.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Mouse\Eyes.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ProjetoMaisQueEspecial\IMG\animais\craftpix-445263-fox-pig-and-mouse-2d-game-sprites\SCML\Pig\Eyes.png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -2882,6 +2935,7 @@
         <layout-folder name="JogoDesmontar">
             <layout>Jogo9.xml</layout>
             <layout>Jogo9Fase2.xml</layout>
+            <layout>Jogo9Fase3.xml</layout>
         </layout-folder>
         <layout>Login.xml</layout>
         <layout>Loading.xml</layout>

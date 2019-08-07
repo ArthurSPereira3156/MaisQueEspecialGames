@@ -371,8 +371,8 @@
             <conditions>
                 <condition id="-14" name="Compare variable" sid="845509266557575" type="System">
                     <param id="0" name="Variable">Pontos</param>
-                    <param id="1" name="Comparison">0</param>
-                    <param id="2" name="Value">7</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Value">6</param>
                 </condition>
                 <condition id="-4" name="Trigger once while true" sid="717513117588305" type="System" />
             </conditions>
@@ -424,9 +424,9 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="162304999382181">
+        <event-block disabled="1" sid="162304999382181">
             <conditions>
-                <condition id="-14" name="Compare variable" sid="334545692654218" type="System">
+                <condition disabled="1" id="-14" name="Compare variable" sid="334545692654218" type="System">
                     <param id="0" name="Variable">Pontos</param>
                     <param id="1" name="Comparison">0</param>
                     <param id="2" name="Value">06</param>
